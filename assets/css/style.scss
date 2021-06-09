@@ -8,4 +8,14 @@
 
 table {
   width: 100%;
+  font-size: 0.8rem;
+}
+
+
+.main-content table th, .main-content table td {
+    padding: 0.1rem 0.1rem;
+    padding-top: 0.3rem;
+    padding-right: 0.1rem;
+    padding-bottom: 0.3rem;
+    padding-left: 0.1rem;
 }
