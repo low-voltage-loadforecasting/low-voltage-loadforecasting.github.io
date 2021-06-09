@@ -10,7 +10,21 @@ You know datasets that are missing? See our  [Github repository](https://github.
 
 ## Use
 
-TODO
+<table>
+  {% for row in site.data.datasets %}
+    {% if forloop.first %}
+    <tr>
+      {% for pair in row %}
+        <th>{{ pair[0] }}</th>
+      {% endfor %}
+    </tr>
+    {% endif %}
+
+    {% tablerow pair in row %}
+      {{ pair[1] }}
+    {% endtablerow %}
+  {% endfor %}
+</table>
 
 ## Cite
 
