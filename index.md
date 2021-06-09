@@ -1,6 +1,5 @@
 ---
 layout: default
-datatable: true
 ---
 # Review of Low-Voltage Load Forecasting
 ## Read
@@ -11,6 +10,7 @@ You know datasets that are missing? See our  [Github repository](https://github.
 
 ## Use
 <!---
+datatable: true
 <table class="display"> 
   {% for row in site.data.datasets %}
     {% if forloop.first %}
