@@ -9,6 +9,7 @@ This is an overview of load forecasting data sets as presented in our [preprint 
 You know datasets that are missing? See our  [Github repository](https://github.com/low-voltage-loadforecasting/low-voltage-loadforecasting.github.io) of this page on how to contribute!
 
 ## Use
+
 <table>
   {% for row in site.data.authors %}
     {% if forloop.first %}
