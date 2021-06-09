@@ -2,7 +2,14 @@
 layout: default
 ---
 
-# Review of Low-Voltage Load Forecasting: Methods, Applications, and Recommendations
+# Contribute
+You know datasets that are missing? See our  [Github repository](https://github.com/low-voltage-loadforecasting/low-voltage-loadforecasting.github.io) of this page on how to contribute!
+
+# Use
+
+TODO
+
+# Cite
 
 If you find it useful and use it in your work, feel free to cite our preprint:
 
@@ -16,5 +23,3 @@ If you find it useful and use it in your work, feel free to cite our preprint:
           primaryClass={stat.OT}
 }
 ```
-
-You know datasets that are missing? See our  [Github repository](https://github.com/low-voltage-loadforecasting/low-voltage-loadforecasting.github.io) of this page on how to contribute!
