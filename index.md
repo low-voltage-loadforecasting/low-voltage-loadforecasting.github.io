@@ -11,7 +11,7 @@ You know datasets that are missing? See our  [Github repository](https://github.
 ## Use
 
 <table>
-  {% for row in site.data.authors %}
+  {% for row in site.data.datasets %}
     {% if forloop.first %}
     <tr>
       {% for pair in row %}
