@@ -30,7 +30,7 @@ twitter_username: marcusvoss314
 github_username:  low-voltage-loadforecasting
 
 # Build settings
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
