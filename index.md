@@ -10,7 +10,7 @@ You know datasets that are missing? See our  [Github repository](https://github.
 
 ## Use
 
-<table>
+<table id="dataset-table">
   {% for row in site.data.datasets %}
     {% if forloop.first %}
     <tr>
@@ -25,6 +25,12 @@ You know datasets that are missing? See our  [Github repository](https://github.
     {% endtablerow %}
   {% endfor %}
 </table>
+
+<script>
+  $(document).ready( function () {
+    $('#dataset-table').DataTable();
+} );
+</script>
 
 ## Cite
 
