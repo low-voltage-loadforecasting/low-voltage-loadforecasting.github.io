@@ -30,16 +30,14 @@ datatable: true
 </table>
 -->
 
-<table> 
-  {% for row in site.data.datasets %}
+<table>
+  {% for row in site.data.authors %}
     {% if forloop.first %}
-    <thead>
     <tr>
       {% for pair in row %}
         <th>{{ pair[0] }}</th>
       {% endfor %}
     </tr>
-    </thead>
     {% endif %}
 
     {% tablerow pair in row %}
