@@ -14,21 +14,7 @@ Name,Reference,Type,No. Customers,Resolution,Duration,Intervention,Sub-metering,
 [Fresh Energy](https://zenodo.org/record/3855575#.YKQgGKgzaUk),"(Beyertt et al., 2020)",Households,200,15 min,1 year,Behaviorial,Yes,No,Germany,"Agegroup, Gender of main customer",CC BY
 [FINESCE Factory](https://data.lab.fiware.org/organization/9569f9bd-42bd-414f-b8d9-112553ea9dfb?tags=FINESCE),,Industrial,1,1 min,2 days,None,Yes,No,Germany (Aachen),Machines,CC BY-SA
 [HTW Lichte Weiten](https://pvspeicher.htw-berlin.de/wp-content/uploads/MFH-Lastprofil_2014_17274_kWh.csv),(HTW 2019),Households,1 building,15 minute,1 year,None,No,No,Germany (Berlin),,Free (No Licence)
-[HTW Synthetic](https://pvspeicher.htw-berlin.de/veroeffentlichungen/daten/lastprofile/),"<details><summary>staudt2018</summary>
-<p>
-
-```
-@inproceedings{Staudt2018san,
-    author        = {Staudt, Philipp and Ludwig, Nicole and Huber, Julian and Hagenmeyer, Veit and Weinhardt, Christof},
-    booktitle     = {Proceedings of the Ninth International Conference on Future Energy Systems},
-    pages         = {618--621},
-    title         = {SCiBER: A new public data set of municipal building consumption},
-    year          = {2018}
-}
-```
-
-</p>
-</details>",Households,74,1 s,1 year,None,No,No,Germany (Representative),Synthetic dataset merging,CC BY-NC
+[HTW Synthetic](https://pvspeicher.htw-berlin.de/veroeffentlichungen/daten/lastprofile/),,Households,74,1 s,1 year,None,No,No,Germany (Representative),Synthetic dataset merging,CC BY-NC
 [CoSSMic](https://data.open-power-system-data.org/household_data/),"(Open et al., 2020)","Households, SME",11,"1min, 15min, 1H",1-3 years,None,Yes,No,Germany (South),"PV, EV, Type (Residential/SME)",CC BY
 [SciBER](https://im.iism.kit.edu/sciber.php),"(Staudt et al., 2018)",Municipal,107,15min,3 years,None,No,No,Germany (South),"Type (Office, Gym, ...)",CC BY
 [iAWE](https://iawe.github.io/),"(Batra et al., 2013)",Households,1,1 Hz,2 months,None,Yes,No,India (New Delhi),Water,Free (No Licence)
