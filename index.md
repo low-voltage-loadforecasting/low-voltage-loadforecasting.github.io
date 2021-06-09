@@ -21,7 +21,7 @@ You know datasets that are missing? See our  [Github repository](https://github.
     {% endif %}
 
     {% tablerow pair in row %}
-      {{ pair[1] }}
+      {{ pair[1] | markdownify }}
     {% endtablerow %}
   {% endfor %}
 </table>
