@@ -14,11 +14,13 @@ You know datasets that are missing? See our  [Github repository](https://github.
 <table class="display"> 
   {% for row in site.data.datasets %}
     {% if forloop.first %}
+    <thead>
     <tr>
       {% for pair in row %}
         <th>{{ pair[0] }}</th>
       {% endfor %}
     </tr>
+    </thead>
     {% endif %}
 
     {% tablerow pair in row %}
@@ -26,6 +28,7 @@ You know datasets that are missing? See our  [Github repository](https://github.
     {% endtablerow %}
   {% endfor %}
 </table>
+
 
 ## Cite
 
