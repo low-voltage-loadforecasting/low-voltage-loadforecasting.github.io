@@ -4,8 +4,6 @@ layout: default
 
 # Review of Low-Voltage Load Forecasting: Methods, Applications, and Recommendations
 
-This is an overview of load forecasting data sets as presented in our [preprint on arXiv](https://arxiv.org/pdf/2106.00006v1.pdf).  
-
 If you find it useful and use it in your work, feel free to cite our preprint:
 
 ```latex
