@@ -32,6 +32,7 @@ show_downloads: false
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
+  - jekyll-scholar
 
 # Exclude from processing.
 # The following items will not be processed, by default.

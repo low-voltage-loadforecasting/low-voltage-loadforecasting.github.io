@@ -5,6 +5,8 @@ layout: default
 ## Read
 This is an overview of load forecasting data sets as presented in our [preprint on arXiv](https://arxiv.org/pdf/2106.00006v1.pdf).
 
+This is a test citation {% cite signaltrain %}.
+
 ## Contribute
 You know datasets that are missing? See our  [Github repository](https://github.com/low-voltage-loadforecasting/low-voltage-loadforecasting.github.io) of this page on how to contribute!
 
@@ -48,3 +50,6 @@ If you find it useful and use it in your work, feel free to cite our preprint:
           primaryClass={stat.OT}
 }
 ```
+
+
+{% bibliography --cited %}
