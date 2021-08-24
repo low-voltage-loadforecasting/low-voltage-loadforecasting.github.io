@@ -9,15 +9,15 @@ The easiest way to contribute is to use the issue functionality of Github. For t
 - **Name**: A short name that can be referenced
 - **Url**: Link to where the dataset is hosted or can be requested
 - **Type**: Should be one or several of "Residential", "Commercial", "Industrial", "Other", "Substation"
-- **No.Customers**: Number of entitites in the dataset (e.g., number of households, number of substations)
+- **Customers**: Number of entitites in the dataset (e.g., number of households, number of substations)
 - **Resolution**: Resolution in minutes, seconds or kHz
 - **Duration**: What is the typical duration of data available in days, weeks or months
 - **Intervention**: If an intervention like Time-of-Use or dynamic prices was part of the measurement campaign
-- **Sub-metering**: If there is any hierarchy in the dataset (e.g. households belonging to same substation, or measurements within the household)
-- **Weather avail.**: If there is weather data available
+- **Submetering**: If there is any hierarchy in the dataset (e.g. households belonging to same substation, or measurements within the household)
+- **Weather**: If there is weather data available
 - **Location**: Country and possibly city or Region
-- **Other data provided**: If there is other measurements belonging to the dataset besides load.
-- **Access/Licence**: The licence (if any)
+- **Other**: If there is other measurements belonging to the dataset besides load.
+- **Licence**: The licence (if any)
 
 Many datasets ask for (or require) attribution of a certain paper. If so, provide it's bibliographic information. Ideally, provide a bibtex entry or simply list the information required (see [here](https://de.overleaf.com/learn/latex/Bibliography_management_with_bibtex#The_bibliography_file) for example bibtex entries). 
 
