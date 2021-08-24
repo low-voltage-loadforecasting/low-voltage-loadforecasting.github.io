@@ -21,6 +21,8 @@ The easiest way to contribute is to use the issue functionality of Github. For t
 
 Many datasets ask for (or require) attribution of a certain paper. If so, provide it's bibliographic information. Ideally, provide a bibtex entry or simply list the information required (see [here](https://de.overleaf.com/learn/latex/Bibliography_management_with_bibtex#The_bibliography_file) for example bibtex entries). 
 
+See issue #2 as an example.
+
 ### Submit via pull request
 
 ## Any Ideas or Feedback?
