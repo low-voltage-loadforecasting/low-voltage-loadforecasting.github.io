@@ -6,7 +6,7 @@ This is the repository for the Github pages site produced with [Jekyll](https://
 
 ### Submit by opening an issue
 The easiest way to contribute is to use the issue functionality of Github. For that switch into the tab "Issues" above. Then click "New Issue". Optionally add the label "dataset". Then provide as much as possible from the following information:
-- Name: SMART* Home 2013
+- *Name*: SMART* Home 2013
 - Url: http://lass.cs.umass.edu/projects/smart/
 - Type: Households
 - No.Customers: '3'
