@@ -23,3 +23,5 @@ Many datasets ask for (or require) attribution of a certain paper. If so, provid
 
 ### Submit via pull request
 
+## Any Ideas or Feedback?
+We know, this is yet another list of datasets out there. We believe it is a useful resource and providing a way to keep it up-to-date beyond the paper adds value. If you have any idea on how this could be improved, for instance by adding more structure to the data for a better meta-review. If you have any ideas, either open an issue for discussion or contact [us](mailto:mail@marcusvoss.com).
