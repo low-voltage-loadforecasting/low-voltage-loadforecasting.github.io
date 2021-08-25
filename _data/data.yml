@@ -15,7 +15,7 @@
   Bibtexkey: monacchi2014gae
   Url: https://sourceforge.net/projects/greend/
   Type: Residential
-  Customers: 8	
+  Customers: 8
   Resolution: 1 s
   Duration: 3-6 months
   Intervention: None
@@ -163,11 +163,11 @@
   Customers: 200
   Resolution: 15 min
   Duration: 1 year
-  Intervention: Behaviorial
+  Intervention: Behavioural
   Submetering: 'Yes'
   Weather: 'No'
   Location: Germany
-  Other: Agegroup, Gender of main customer
+  Other: Age group, Gender of main customer
   Licence: CC BY 4.0
 - Name: FINESCE Factory
   Bibtexkey:
