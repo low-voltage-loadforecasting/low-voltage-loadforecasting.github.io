@@ -40,3 +40,4 @@ We know, this is yet another list of datasets out there. We believe it is a usef
 - Climate Change AI Wiki page on Electricity Systems: https://wiki.climatechange.ai/wiki/Electricity_Systems
 - List of NILM datasets by Oliver Parson: https://blog.oliverparson.co.uk/2012/06/public-data-sets-for-nialm.html
 - List compiled by Miha Grabner: https://www.mihagrabner.com/resources
+- List in Paper "A Comprehensive Review of Residential Electricity Load Profile Models", https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9316723
