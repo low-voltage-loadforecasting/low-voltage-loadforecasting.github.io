@@ -33,7 +33,7 @@ You can also add a paper yourself and add it to the repository as a pull request
 - Now to publish the web site, follow those steps
   - Delete 'gh-branches' branch: `git branch -D gh-pages`
   - Greate new branch: `git checkout -b gh-pages`
-  - Focus only '_site': `filter-branch --subdirectory-filter _site/ -f`
+  - Focus only '_site': `git filter-branch --subdirectory-filter _site/ -f`
   - `git checkout source`
   - `git push --all origin`
 
