@@ -34,3 +34,10 @@ You can also add a paper yourself and add it to the repository as a pull request
 
 ## Any Ideas or Feedback?
 We know, this is yet another list of datasets out there. We believe it is a useful resource and providing a way to keep it up-to-date beyond the paper adds value. If you have any idea on how this could be improved or have other ideas, either open an issue for discussion or contact [us](mailto:mail@marcusvoss.com). It serves currently the purpose of manual exploration and there was no focus on properly standardizing and harmonizing that data source in the YAML.
+
+## Other lists of datasets
+- ACM Special Interest Group on Energy Systems and Informatics: https://bwdatadiss.kit.edu/dataset/184#headingFileList
+- Climate Change AI Wiki page on Electricity Systems: https://wiki.climatechange.ai/wiki/Electricity_Systems
+- List of NILM datasets by Oliver Parson: https://blog.oliverparson.co.uk/2012/06/public-data-sets-for-nialm.html
+- List compiled by Miha Grabner: https://www.mihagrabner.com/resources
+- List in Paper "A Comprehensive Review of Residential Electricity Load Profile Models", https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9316723

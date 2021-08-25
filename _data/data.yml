@@ -671,3 +671,16 @@
   Location: Portugal (Funchal)
   Other: Voltage, Powerfactor, Reactive Power, Sociodemographic (Type, Bedroooms, occupants)
   Licence: Free for Research (E-Mail)
+- Name: Smart Energy Research Lab Exploratory Data (SERL)
+  Bibtexkey: serl2020ser
+  Url: https://beta.ukdataservice.ac.uk/datacatalogue/doi/?id=8643
+  Type: Residential
+  Customers: 1770
+  Resolution: 30 min
+  Duration: 1 year
+  Intervention: None
+  Submetering: 'No'
+  Weather: 'No'
+  Location: UK
+  Other: 
+  Licence: Free for Research (E-Mail)
