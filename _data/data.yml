@@ -1,0 +1,595 @@
+- Name: ADRES
+  Bibtexkey: einfalt2011kfa
+  Url: https://www.ea.tuwien.ac.at/projects/adres_concept/EN/
+  Type: Residential
+  Customers: 30
+  Resolution: 1 s
+  Duration: 2 weeks
+  Intervention: None
+  Submetering: 'No'
+  Weather: 'No'
+  Location: Austria (Upper Austria)
+  Other: Voltage
+  Licence: Free for Research (E-Mail)
+- Name: GREEND Electrical Energy Dataset (GREEND)
+  Bibtexkey: monacchi2014gae
+  Url: https://sourceforge.net/projects/greend/
+  Type: Residential
+  Customers: 8	
+  Resolution: 1 s
+  Duration: 3-6 months
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'No'
+  Location: Austria, Italy
+  Other: Occupancy, Building type
+  Licence: Free (Access Form)
+- Name: UCI Appliances
+  Bibtexkey: candanedo2017ddp
+  Url: https://archive.ics.uci.edu/ml/datasets/Appliances+energy+prediction
+  Type: Residential
+  Customers: 1
+  Resolution: 10 min
+  Duration: 4.5 months
+  Intervention: None
+  Submetering: 'No'
+  Weather: 'Yes'
+  Location: Belgium (Mons)
+  Other: Lights, Building information
+  Licence: Free (No Licence)
+- Name: Industrial Machines
+  Bibtexkey: Bandeira2018imd
+  Url: https://ieee-dataport.org/open-access/industrial-machines-dataset-electrical-load-disaggregation
+  Type: Industrial
+  Customers: 1
+  Resolution: 1 s
+  Duration: 1 month
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'No'
+  Location: Brasil (Minas Gerais)
+  Other:
+  Licence: CC BY 4.0
+- Name: Rainforest Automation Energy
+  Bibtexkey: Makonin2018rtr
+  Url: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZJW4LC
+  Type: Residential
+  Customers: 2
+  Resolution: 1 s
+  Duration: 2 months
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'Yes'
+  Location: Canada
+  Other: Environmental, Heat Pump,
+  Licence: CC BY 4.0
+- Name: AMPds2
+  Bibtexkey: 
+    - Makonin2016ata
+    - Makonin2016ewa
+  Url: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FIE0S4
+  Type: Residential
+  Customers: 1
+  Resolution: 1 min
+  Duration: 2 years
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'Yes'
+  Location: Canada (Alberta)
+  Other: Gas, Water, Building Type and Plan
+  Licence: CC BY 4.0
+- Name: Sustainable Building Energy Systems 2017
+  Bibtexkey: Johnson2017edf
+  Url: https://carleton.ca/sbes/publications/electric-demand-profiles-downloadable/
+  Type: Residential
+  Customers: 23
+  Resolution: 1 min
+  Duration: 1 year
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'No'
+  Location: Canada (Ottawa)
+  Other: Sociodemographic (Occupants, Age, Size)
+  Licence: Free (Attribution, E-Mail)
+- Name: Sustainable Building Energy Systems 2013
+  Bibtexkey: Saldanha2012mee
+  Url: https://carleton.ca/sbes/publications/electric-demand-profiles-downloadable/
+  Type: Residential
+  Customers: 12
+  Resolution: 1 min
+  Duration: 1 year
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'No'
+  Location: Canada (Ottawa)
+  Other: Sociodemographic (Occupants, Age, Size)
+  Licence: Free (Attribution, E-Mail)
+- Name: FINESCE Horsens
+  Bibtexkey:
+  Url: https://data.lab.fiware.org/organization/9569f9bd-42bd-414f-b8d9-112553ea9dfb?tags=FINESCE
+  Type: Residential
+  Customers: 20
+  Resolution: 1 h
+  Duration: several days
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'Yes'
+  Location: Denmark (Horsens)
+  Other: EV, PV, Heat Pump, Heating, Smart Home,
+  Licence: CC BY-SA
+- Name: UCI Individual household electric power cons.
+  Bibtexkey: Hebrail2012ihe
+  Url: https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption
+  Type: Residential
+  Customers: 1 
+  Resolution: 1 min
+  Duration: 4 years
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'No'
+  Location: France (Sceaux)
+  Other: Reactive Power, Voltage
+  Licence: CC BY 4.0
+- Name: BLOND-50
+  Bibtexkey: Kriechbaumer2017bbo
+  Url: https://mediatum.ub.tum.de/1375836
+  Type: Commercial
+  Customers: 1
+  Resolution: 50 kHz
+  Duration: 213 days
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'No'
+  Location: Germany
+  Other:
+  Licence: CC BY 4.0
+- Name: BLOND-250
+  Bibtexkey: Kriechbaumer2017bbo
+  Url: https://mediatum.ub.tum.de/1375836
+  Type: Commercial
+  Customers: 1
+  Resolution: 250 kHz
+  Duration: 50 days
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'No'
+  Location: Germany
+  Other:
+  Licence: CC BY 4.0
+- Name: Fresh Energy
+  Bibtexkey: Beyertt2020fzb
+  Url: https://zenodo.org/record/3855575\#.YKQgGKgzaUk
+  Type: Residential
+  Customers: 200
+  Resolution: 15 min
+  Duration: 1 year
+  Intervention: Behaviorial
+  Submetering: 'Yes'
+  Weather: 'No'
+  Location: Germany
+  Other: Agegroup, Gender of main customer
+  Licence: CC BY 4.0
+- Name: FINESCE Factory
+  Bibtexkey:
+  Url: https://data.lab.fiware.org/organization/9569f9bd-42bd-414f-b8d9-112553ea9dfb?tags=FINESCE
+  Type: Industrial
+  Customers: 1
+  Resolution: 1 min
+  Duration: 2 days
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'No'
+  Location: Germany (Aachen)
+  Other: Machines
+  Licence: CC BY-SA
+- Name: HTW Lichte Weiten
+  Bibtexkey: htw2019ldb
+  Url: https://pvspeicher.htw-berlin.de/wp-content/uploads/MFH-Lastprofil_2014_17274_kWh.csv
+  Type: Residential
+  Customers: 1
+  Resolution: 15 min
+  Duration: 1 year
+  Intervention: None
+  Submetering: 'No'
+  Weather: 'No'
+  Location: Germany (Berlin)
+  Other:
+  Licence: Free (No Licence)
+- Name: HTW Synthetic
+  Bibtexkey: Tjaden2015rel
+  Url: https://pvspeicher.htw-berlin.de/veroeffentlichungen/daten/lastprofile/
+  Type: Residential
+  Customers: 74
+  Resolution: 1 s
+  Duration: 1 year
+  Intervention: None
+  Submetering: 'No'
+  Weather: 'No'
+  Location: Germany (Representative)
+  Other: Synthetic dataset merged
+  Licence: CC BY-NC
+- Name: CoSSMic
+  Bibtexkey: Open2020dph
+  Url: https://data.open-power-system-data.org/household_data/
+  Type: Residential, Commercial
+  Customers: 11
+  Resolution: 1 min, 15 min, 1 h
+  Duration: 1-3 years
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'No'
+  Location: Germany (South)
+  Other: PV, EV, Type (Residential/SME)
+  Licence: CC BY 4.0
+- Name: SciBER
+  Bibtexkey: Staudt2018san
+  Url: https://im.iism.kit.edu/sciber.php
+  Type: Other
+  Customers: 107
+  Resolution: 15 min
+  Duration: 3 years
+  Intervention: None
+  Submetering: 'No'
+  Weather: 'No'
+  Location: Germany (South)
+  Other: Type (Office, Gym, ...)
+  Licence: CC BY 4.0
+- Name: iAWE
+  Bibtexkey: batra2013idi
+  Url: https://iawe.github.io/
+  Type: Residential
+  Customers: 1
+  Resolution: 1 s
+  Duration: 2 months
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'No'
+  Location: India (New Delhi)
+  Other: Water
+  Licence: Free (No Licence)
+- Name: COMBED
+  Bibtexkey: Batra2014aco
+  Url: https://combed.github.io/
+  Type: Commercial
+  Customers: 1
+  Resolution: 30 s
+  Duration: 1 month
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'No'
+  Location: India (New Delhi)
+  Other:
+  Licence: Free (No Licence)
+- Name: Irish CER Smart Metering Project data
+  Bibtexkey: Commission2012csm
+  Url: http://www.ucd.ie/issda/data/commissionforenergyregulationcer/
+  Type: Residential, Commercial
+  Customers: 3835
+  Resolution: 30 min
+  Duration: 1.5 years
+  Intervention: Tariff
+  Submetering: 'No'
+  Weather: 'No'
+  Location: Ireland
+  Other: Type (Residential/SME/Other)
+  Licence: Free (Signed Access Form)
+- Name: Hvaler Substation Level data
+  Bibtexkey: DangHa2017lst
+  Url: https://github.com/Nikasa1889/ShortTermLoadForecasting
+  Type: Substation
+  Customers: 20
+  Resolution: 1 h
+  Duration: 2 years
+  Intervention: None
+  Submetering: 'No'
+  Weather: 'No'
+  Location: Norway (Hvaler)
+  Other: 
+  Licence: Free (No Licence)
+- Name: Energy Informatics Group Pakistan
+  Bibtexkey: Pereira2014sap
+  Url: http://web.lums.edu.pk/~eig/CXyzsMgyXGpW1sBo
+  Type: Residential
+  Customers: 42
+  Resolution: 1 min
+  Duration: 1 year
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'No'
+  Location: Pakistan
+  Other: Sociodemographic (building properties, no of people, devices)
+  Licence: Free (No Licence)
+- Name: UCI Electricity Load Diagrams
+  Bibtexkey: Godahewa2021ehd
+  Url: https://archive.ics.uci.edu/ml/datasets/ElectricityLoadDiagrams20112014
+  Type: Residential, Commercial, Industrial
+  Customers: 370
+  Resolution: 15 min
+  Duration: 2 years
+  Intervention: None
+  Submetering: 'No'
+  Weather: 'No'
+  Location: Portugal
+  Other:
+  Licence: Free (No Licence)
+- Name: Electricity Consumption and Occupancy (ECO)
+  Bibtexkey: 
+    - Christian2014ted
+    - Wilhelm2015hom
+  Url: http://www.vs.inf.ethz.ch/res/show.html?what=eco-data
+  Type: Residential
+  Customers: 6
+  Resolution: 1 s
+  Duration: 8 months
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'No'
+  Location: Switzerland
+  Other: Occupancy
+  Licence: CC BY 4.0
+- Name: Home Electricity Survey (HES)
+  Bibtexkey: Zimmermann2012hes
+  Url: https://www.gov.uk/government/publications/household-electricity-survey--2
+  Type: Residential
+  Customers: 250
+  Resolution: 2 min
+  Duration: 1 month (255) to 1 year (26)
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'No'
+  Location: UK
+  Other: Consumer Archetype
+  Licence: Request
+- Name: METER
+  Bibtexkey: Grunewald2019muh
+  Url: https://beta.ukdataservice.ac.uk/datacatalogue/studies/study?id=8634
+  Type: Residential
+  Customers: 29
+  Resolution: 1 min
+  Duration: 28 hours
+  Intervention: None
+  Submetering: 'No'
+  Weather: 'No'
+  Location: UK
+  Other: Activity data, Sociodemographic
+  Licence: Free for Research (Access Form)
+- Name: IDEAL Household Energy Dataset
+  Bibtexkey: goddard2020ihe
+  Url: https://datashare.ed.ac.uk/handle/10283/3647
+  Type: Residential
+  Customers: 255
+  Resolution: 1 s
+  Duration: 3 years
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'No'
+  Location: UK
+  Other: Smart Home, Sociodemographic, energy awareness survey, room temperature and
+    humidity, building characteristics
+  Licence: CC BY 4.0
+- Name: Customer-Led Network Revolution project data
+  Bibtexkey: sidebotham2015cln
+  Url: http://www.networkrevolution.co.uk/resources/project-data/
+  Type: Residential, Commercial
+  Customers: 12000
+  Resolution: 30 min
+  Duration: '> 1 year'
+  Intervention: Time of Use
+  Submetering: 'No'
+  Weather: 'No'
+  Location: UK
+  Other: EV, PV, Heatpump, Tariff,
+  Licence: CC BY-SA
+- Name: UK Domestic Appliance-Level Electricity (UK-DALE)
+  Bibtexkey: Jack2015tud
+  Url: https://jack-kelly.com/data/
+  Type: Residential
+  Customers: 5
+  Resolution: 16 kHz, 1 s
+  Duration: months, one house > 4 years
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'No'
+  Location: UK (London area)
+  Other:
+  Licence: CC BY 4.0
+- Name: UK Low Carbon London
+  Bibtexkey: 
+    - UK2014ulc 
+    - Godahewa2021lsm
+  Url: https://data.london.gov.uk/dataset/smartmeter-energy-use-data-in-london-households
+  Type: Residential
+  Customers: 5567
+  Resolution: 30 min
+  Duration: 2 years
+  Intervention: Time of Use
+  Submetering: 'No'
+  Weather: 'No'
+  Location: UK (London)
+  Other: CACI Acorn group
+  Licence: Free (No Licence)
+- Name: REFIT
+  Bibtexkey: 
+    - Murray2016rel
+    - Murray2017ael
+  Url: https://www.refitsmarthomes.org/datasets/
+  Type: Residential
+  Customers: 20
+  Resolution: 8 s
+  Duration: 2 years
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'Yes'
+  Location: UK (Loughborough)
+  Other: PV, Gas, Water, Sociodemographic (Occupancy, Dwelling Age, Dwelling Type,
+    No. Bedrooms)
+  Licence: CC BY 4.0
+- Name: Flexible Networks for a Low Carbon Future
+  Bibtexkey:
+  Url: https://www.spenergynetworks.co.uk/pages/flexible_network_data_share.aspx
+  Type: Substation
+  Customers: Several Secondary
+  Resolution: 30 min
+  Duration: 1 year
+  Intervention: None
+  Submetering: 'No'
+  Weather: 'No'
+  Location: UK (St Andrews, Whitchurch, Ruabon)
+  Other:
+  Licence: Free (Access Form)
+- Name: NTVV Substation
+  Bibtexkey: 
+  Url: https://ukerc.rl.ac.uk/DC/cgi-bin/edc_search.pl?WantComp=146
+  Type: Substation
+  Customers: 316
+  Resolution: 5 s
+  Duration: '> 4 years'
+  Intervention: None
+  Submetering: 'No'
+  Weather: 'No'
+  Location: UK (Thames Valley)
+  Other:
+  Licence: Open Access (Any purpose)
+- Name: NTVV Smart Meter
+  Bibtexkey: 
+  Url: https://ukerc.rl.ac.uk/DC/cgi-bin/edc_search.pl?WantComp=147
+  Type: Commercial
+  Customers: 316
+  Resolution: 30 min
+  Duration: '> 4 years'
+  Intervention: None
+  Submetering: 'No'
+  Weather: 'No'
+  Location: UK (Thames Valley)
+  Other:
+  Licence: Open Access (Any purpose)
+- Name: IEEE PES Open Data Sets
+  Bibtexkey: 
+  Url: https://site.ieee.org/pes-iss/data-sets/
+  Type: Residential, Commercial
+  Customers: 15
+  Resolution: 1 min, 5 min, 15 min
+  Duration: 2 weeks
+  Intervention: None
+  Submetering: 'No'
+  Weather: 'No'
+  Location: USA
+  Other: Connection limit
+  Licence: Free (No Licence)
+- Name: Reference Energy Disaggregation Data Set (REDD)
+  Bibtexkey: Kolter2011rap
+  Url: http://redd.csail.mit.edu/
+  Type: Residential
+  Customers: 10
+  Resolution: 1 kHz
+  Duration: 3-19 days
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'No'
+  Location: USA (Boston)
+  Other: Voltage
+  Licence: Free (Attribution, E-Mail)
+- Name: Iowa Distribution Test Systems
+  Bibtexkey: Bu2019atd
+  Url: http://wzy.ece.iastate.edu/Testsystem.html
+  Type: Substation
+  Customers: 240 nodes
+  Resolution: 1 h
+  Duration: 1 year
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'No'
+  Location: USA (Iowa)
+  Other: Grid data
+  Licence: Free (Attribution)
+- Name: Pecanstreet Dataport (Academic)
+  Bibtexkey: Pecan2018d
+  Url: https://www.pecanstreet.org/dataport/
+  Type: Residential
+  Customers: 75
+  Resolution: 1  min, 15 min, 1 h
+  Duration: 2-3 years
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'Yes'
+  Location: USA (Austin, New York, California)
+  Other: PV, EV, Water, Gas, Sociodemographic
+  Licence: Free for Research (Access Form)
+- Name: Residential Building Stock Assessment
+  Bibtexkey: Larson2014jua
+  Url: https://neea.org/resources/rbsa-ii-combined-database
+  Type: Residential
+  Customers: 101
+  Resolution: 15 min
+  Duration: 27 months
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'No'
+  Location: USA (North West Region)
+  Other: Building Type (Single Family, Manufactured, Multifamily)
+  Licence: Free (Access Form)
+- Name: SMART* Home 2017
+  Bibtexkey: Barker2012sao
+  Url: http://lass.cs.umass.edu/projects/smart/
+  Type: Residential
+  Customers: 7
+  Resolution: 1 s
+  Duration: '> 2 years'
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'Yes'
+  Location: USA (Western Massachussets)
+  Other:
+  Licence: Free (No Licence)
+- Name: SMART* Apartment
+  Bibtexkey: Barker2012sao
+  Url: http://lass.cs.umass.edu/projects/smart/
+  Type: Residential
+  Customers: 114
+  Resolution: 1 min
+  Duration: 2 years
+  Intervention: None
+  Submetering: 'No'
+  Weather: 'Yes'
+  Location: USA (Western Massachussets)
+  Other: 
+  Licence: Free (No Licence)
+- Name: SMART* Occupancy
+  Bibtexkey: Barker2012sao
+  Url: http://lass.cs.umass.edu/projects/smart/
+  Type: Residential
+  Customers: 2
+  Resolution: 1 min
+  Duration: 3 weeks
+  Intervention: None
+  Submetering: 'No'
+  Weather: 'No'
+  Location: USA (Western Massachussets)
+  Other: Occupancy
+  Licence: Free (No Licence)
+- Name: SMART* Microgrid
+  Bibtexkey: Barker2012sao
+  Url: http://lass.cs.umass.edu/projects/smart/
+  Type: Residential
+  Customers: 443
+  Resolution: 1 min
+  Duration: 1 day
+  Intervention: None
+  Submetering: 'No'
+  Weather: 'No'
+  Location: USA (Western Massachussets)
+  Other:
+  Licence: Free (No Licence)
+- Name: SMART* Home 2013
+  Bibtexkey: Barker2012sao
+  Url: http://lass.cs.umass.edu/projects/smart/
+  Type: Residential
+  Customers: 3
+  Resolution: 1 s
+  Duration: 3 months
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'No'
+  Location: USA (Western Massachussets)
+  Other: Solar, Wind, Environmental, Smart Home, Voltage,
+  Licence: Free (No Licence)

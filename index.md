@@ -3,9 +3,7 @@ layout: default
 ---
 # Review of Low-Voltage Load Forecasting
 ## Read
-This is an overview of load forecasting data sets as presented in our [preprint on arXiv](https://arxiv.org/pdf/2106.00006v1.pdf).
-
-This is a test citation {% cite signaltrain %}.
+This is an overview of load forecasting data sets as presented in our paper available as [preprint on arXiv](https://arxiv.org/pdf/2106.00006v1.pdf).
 
 ## Contribute
 You know datasets that are missing? See our  [Github repository](https://github.com/low-voltage-loadforecasting/low-voltage-loadforecasting.github.io) of this page on how to contribute!
@@ -13,26 +11,58 @@ You know datasets that are missing? See our  [Github repository](https://github.
 ## Use
 
 <table id="dataset-table">
-  {% for row in site.data.datasets %}
-    {% if forloop.first %}
-	<thead>
-    <tr>
-      {% for pair in row %}
-        <th>{{ pair[0] }}</th>
-      {% endfor %}
-    </tr>
-	</thead>
-    {% endif %}
-
-    {% tablerow pair in row %}
-      {{ pair[1] | markdownify }}
-    {% endtablerow %}
-  {% endfor %}
+    <thead>
+        <tr class="header">
+            <th>Name</th>
+            <th>Bibtexkey</th>
+			<th>Type</th>
+            <th>No. Customers</th>
+            <th>Resolution</th>
+			<th>Duration</th>
+            <th>Intervention</th>
+            <th>Sub-metering</th>
+			<th>Weather avail.</th>
+			<th>Location</th>
+            <th>Other data provided:</th>
+            <th>Access/Licence</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for entry in site.data.data %}
+        <tr>
+          <td>  <a href="{{ entry.Url }}">{{ entry.Name }}</a> </td>  
+          <td>
+			{% if entry.Bibtexkey[0] %}
+				{% for key in entry.Bibtexkey %}
+					{% cite key %}
+				{% endfor %}
+			{% else %}
+				{% if entry.Bibtexkey %}
+					{% cite entry.Bibtexkey %}
+				{% endif %}
+			{% endif %}
+		  </td>
+		  <td>{{entry.Type}}</td>
+          <td>{{entry.Customers}}</td>
+          <td>{{entry.Resolution}}</td>
+		  <td>{{entry.Duration}}</td>
+          <td>{{entry.Intervention}}</td>
+          <td>{{entry.Submetering}}</td>
+		  <td>{{entry.Weather}}</td>
+          <td>{{entry.Location}}</td>
+          <td>{{entry.Other}}</td>
+		  <td>{{entry.Licence}}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
 </table>
 
 <script>
   $(document).ready( function () {
-    $('#dataset-table').DataTable();
+    $('#dataset-table').DataTable({
+            "autoWidth": true,
+            "pageLength": 20
+        });
 } );
 </script>
 
@@ -51,5 +81,6 @@ If you find it useful and use it in your work, feel free to cite our preprint:
 }
 ```
 
+## References
 
 {% bibliography --cited %}

@@ -21,11 +21,11 @@
 title: Review of Low-Voltage Load Forecasting
 email: mail@marcusvoss.com
 description: >- # this means to ignore newlines until "baseurl:"
-    This is an overview of load forecasting data sets as presented in the paper Review of Low-Voltage Load Forecasting: Methods, Applications, and Recommendations, by Stephen Haben, Siddharth Arora, Georgios Giasemidis, Marcus Voss, and Danica Vukadinovic Greetham.
+    This is an overview of load forecasting data sets as presented in the paper "Review of Low-Voltage Load Forecasting: Methods, Applications, and Recommendations, by Stephen Haben, Siddharth Arora, Georgios Giasemidis, Marcus Voss, and Danica Vukadinovic Greetham".
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://low-voltage-loadforecasting.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: marcusvoss314
-github_username:  low-voltage-loadforecasting
+github_username:  marcus-voss
 show_downloads: false
 
 # Build settings
@@ -33,6 +33,9 @@ theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
   - jekyll-scholar
+  
+scholar:
+  bibliography: "datasetrefs.bib"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
