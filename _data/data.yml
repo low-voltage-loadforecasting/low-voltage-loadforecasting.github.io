@@ -697,3 +697,16 @@
   Location: Canada (British Columbia)
   Other: 
   Licence: CC-BY 4.0
+- Name: ENERTALK 
+  Bibtexkey: shin2019enertalk
+  Url: https://github.com/ch-shin/ENERTALK-dataset
+  Type: Residential
+  Customers: 22
+  Resolution: 15 Hz
+  Duration: 30 days
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'No'
+  Location: Korea
+  Other: 
+  Licence: No Licence
