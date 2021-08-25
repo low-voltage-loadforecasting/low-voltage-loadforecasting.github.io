@@ -36,7 +36,7 @@
   Weather: 'Yes'
   Location: Belgium (Mons)
   Other: Lights, Building information
-  Licence: Free (No Licence)
+  Licence: No Licence
 - Name: Industrial Machines
   Bibtexkey: Bandeira2018imd
   Url: https://ieee-dataport.org/open-access/industrial-machines-dataset-electrical-load-disaggregation
@@ -194,7 +194,7 @@
   Weather: 'No'
   Location: Germany (Berlin)
   Other:
-  Licence: Free (No Licence)
+  Licence: No Licence
 - Name: HTW Synthetic
   Bibtexkey: Tjaden2015rel
   Url: https://pvspeicher.htw-berlin.de/veroeffentlichungen/daten/lastprofile/
@@ -246,7 +246,7 @@
   Weather: 'No'
   Location: India (New Delhi)
   Other: Water
-  Licence: Free (No Licence)
+  Licence: No Licence
 - Name: COMBED
   Bibtexkey: Batra2014aco
   Url: https://combed.github.io/
@@ -259,7 +259,7 @@
   Weather: 'No'
   Location: India (New Delhi)
   Other:
-  Licence: Free (No Licence)
+  Licence: No Licence
 - Name: Irish CER Smart Metering Project data
   Bibtexkey: Commission2012csm
   Url: http://www.ucd.ie/issda/data/commissionforenergyregulationcer/
@@ -285,7 +285,7 @@
   Weather: 'No'
   Location: Norway (Hvaler)
   Other: 
-  Licence: Free (No Licence)
+  Licence: No Licence
 - Name: Energy Informatics Group Pakistan
   Bibtexkey: Pereira2014sap
   Url: http://web.lums.edu.pk/~eig/CXyzsMgyXGpW1sBo
@@ -298,7 +298,7 @@
   Weather: 'No'
   Location: Pakistan
   Other: Sociodemographic (building properties, no of people, devices)
-  Licence: Free (No Licence)
+  Licence: No Licence
 - Name: UCI Electricity Load Diagrams
   Bibtexkey: Godahewa2021ehd
   Url: https://archive.ics.uci.edu/ml/datasets/ElectricityLoadDiagrams20112014
@@ -311,7 +311,7 @@
   Weather: 'No'
   Location: Portugal
   Other:
-  Licence: Free (No Licence)
+  Licence: No Licence
 - Name: Electricity Consumption and Occupancy (ECO)
   Bibtexkey: 
     - Christian2014ted
@@ -407,7 +407,7 @@
   Weather: 'No'
   Location: UK (London)
   Other: CACI Acorn group
-  Licence: Free (No Licence)
+  Licence: No Licence
 - Name: REFIT
   Bibtexkey: 
     - Murray2016rel
@@ -475,7 +475,7 @@
   Weather: 'No'
   Location: USA
   Other: Connection limit
-  Licence: Free (No Licence)
+  Licence: No Licence
 - Name: Reference Energy Disaggregation Data Set (REDD)
   Bibtexkey: Kolter2011rap
   Url: http://redd.csail.mit.edu/
@@ -540,7 +540,7 @@
   Weather: 'Yes'
   Location: USA (Western Massachussets)
   Other:
-  Licence: Free (No Licence)
+  Licence: No Licence
 - Name: SMART* Apartment
   Bibtexkey: Barker2012sao
   Url: http://lass.cs.umass.edu/projects/smart/
@@ -553,7 +553,7 @@
   Weather: 'Yes'
   Location: USA (Western Massachussets)
   Other: 
-  Licence: Free (No Licence)
+  Licence: No Licence
 - Name: SMART* Occupancy
   Bibtexkey: Barker2012sao
   Url: http://lass.cs.umass.edu/projects/smart/
@@ -566,7 +566,7 @@
   Weather: 'No'
   Location: USA (Western Massachussets)
   Other: Occupancy
-  Licence: Free (No Licence)
+  Licence: No Licence
 - Name: SMART* Microgrid
   Bibtexkey: Barker2012sao
   Url: http://lass.cs.umass.edu/projects/smart/
@@ -579,7 +579,7 @@
   Weather: 'No'
   Location: USA (Western Massachussets)
   Other:
-  Licence: Free (No Licence)
+  Licence: No Licence
 - Name: SMART* Home 2013
   Bibtexkey: Barker2012sao
   Url: http://lass.cs.umass.edu/projects/smart/
@@ -592,7 +592,7 @@
   Weather: 'No'
   Location: USA (Western Massachussets)
   Other: Solar, Wind, Environmental, Smart Home, Voltage,
-  Licence: Free (No Licence)
+  Licence: No Licence
 - Name: Hierarchical Demand Forecasting Benchmark
   Bibtexkey: nespoli2020hdf
   Url: https://doi.org/10.5281/zenodo.4549296
@@ -606,3 +606,16 @@
   Location: Switzerland (Rolle)
   Other: Reactive Power, Voltage, THD
   Licence: CC BY 4.0
+- Name: BLEM
+  Bibtexkey: kostmann2019fib
+  Url: https://github.com/QuantLet/BLEM/tree/master/BLEMdataGlimpse
+  Type: Residential
+  Customers: 200
+  Resolution: 3 min
+  Duration: 1 year
+  Intervention: None
+  Submetering: 'No'
+  Weather: 'No'
+  Location: Germany
+  Other:
+  Licence: No Licence
