@@ -658,3 +658,16 @@
   Location: Australia (NSW)
   Other:
   Licence: No Licence
+- Name: SustData
+  Bibtexkey: pereira2014sap
+  Url: http://aveiro.m-iti.org/data/
+  Type: Residential
+  Customers: 50
+  Resolution: 1 min
+  Duration: several months
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'Yes'
+  Location: Portugal (Funchal)
+  Other: Voltage, Powerfactor, Reactive Power, Sociodemographic (Type, Bedroooms, occupants)
+  Licence: Free for Research (E-Mail)
