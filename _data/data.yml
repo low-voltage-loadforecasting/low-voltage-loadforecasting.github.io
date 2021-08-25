@@ -684,3 +684,16 @@
   Location: UK
   Other: 
   Licence: Free for Research (E-Mail)
+- Name: Hourly Usage of Energy (HUE)
+  Bibtexkey: makonin2019hue
+  Url: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/N3HGRN
+  Type: Residential
+  Customers: 22
+  Resolution: 1 h
+  Duration: 3 years
+  Intervention: None
+  Submetering: 'No'
+  Weather: 'Yes'
+  Location: Canada (British Columbia)
+  Other: 
+  Licence: CC-BY 4.0
