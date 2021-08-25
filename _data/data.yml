@@ -632,3 +632,29 @@
   Location: Morocco
   Other:
   Licence: No Licence
+- Name: Ausgrid substation data
+  Bibtexkey: 
+  Url: https://www.ausgrid.com.au/Industry/Our-Research/Data-to-share/Distribution-zone-substation-data#.WYD6KenauUl
+  Type: Substation
+  Customers: 225
+  Resolution: 15 min
+  Duration: 20 years
+  Intervention: None
+  Submetering: 'No'
+  Weather: 'No'
+  Location: Australia (NSW)
+  Other:
+  Licence: No Licence
+- Name: Ausgrid Solar Home
+  Bibtexkey: 
+  Url: https://www.ausgrid.com.au/Industry/Our-Research/Data-to-share/Solar-home-electricity-data
+  Type: Residential
+  Customers: 300
+  Resolution: 30 min
+  Duration: 3 years
+  Intervention: None
+  Submetering: 'No'
+  Weather: 'No'
+  Location: Australia (NSW)
+  Other:
+  Licence: No Licence
