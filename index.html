@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+
+    
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Review of Low-Voltage Load Forecasting | This is an overview of load forecasting data sets as presented in the paper “Review of Low-Voltage Load Forecasting: Methods, Applications, and Recommendations, by Stephen Haben, Siddharth Arora, Georgios Giasemidis, Marcus Voss, and Danica Vukadinovic Greetham”.</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Review of Low-Voltage Load Forecasting" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="This is an overview of load forecasting data sets as presented in the paper “Review of Low-Voltage Load Forecasting: Methods, Applications, and Recommendations, by Stephen Haben, Siddharth Arora, Georgios Giasemidis, Marcus Voss, and Danica Vukadinovic Greetham”." />
+<meta property="og:description" content="This is an overview of load forecasting data sets as presented in the paper “Review of Low-Voltage Load Forecasting: Methods, Applications, and Recommendations, by Stephen Haben, Siddharth Arora, Georgios Giasemidis, Marcus Voss, and Danica Vukadinovic Greetham”." />
+<link rel="canonical" href="https://low-voltage-loadforecasting.github.io//" />
+<meta property="og:url" content="https://low-voltage-loadforecasting.github.io//" />
+<meta property="og:site_name" content="Review of Low-Voltage Load Forecasting" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Review of Low-Voltage Load Forecasting" />
+<script type="application/ld+json">
+{"@type":"WebSite","headline":"Review of Low-Voltage Load Forecasting","url":"https://low-voltage-loadforecasting.github.io//","name":"Review of Low-Voltage Load Forecasting","description":"This is an overview of load forecasting data sets as presented in the paper “Review of Low-Voltage Load Forecasting: Methods, Applications, and Recommendations, by Stephen Haben, Siddharth Arora, Georgios Giasemidis, Marcus Voss, and Danica Vukadinovic Greetham”.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/assets/css/style.css?v=11d30d883c6fdbac61aa37983265add65b497b14">
+	<link rel="stylesheet" type="text/css" href="/assets/css/dataTables.bootstrap5.min.css">
+	<script type="text/javascript" charset="utf8" src="/assets/js/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" charset="utf8" src="/assets/js/jquery.dataTables.min.js"></script>
+  </head>
+  <body>
+    <header class="page-header" role="banner">
+      <h1 class="project-name">Review of Low-Voltage Load Forecasting</h1>
+      <h2 class="project-tagline">This is an overview of load forecasting data sets as presented in the paper "Review of Low-Voltage Load Forecasting: Methods, Applications, and Recommendations, by Stephen Haben, Siddharth Arora, Georgios Giasemidis, Marcus Voss, and Danica Vukadinovic Greetham".</h2>
+      
+        <a href="https://github.com/low-voltage-loadforecasting/low-voltage-loadforecasting.github.io" class="btn">View on GitHub</a>
+      
+      
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      <h1 id="review-of-low-voltage-load-forecasting">Review of Low-Voltage Load Forecasting</h1>
+<h2 id="read">Read</h2>
+<p>This is an overview of load forecasting data sets as presented in our paper available as <a href="https://arxiv.org/pdf/2106.00006v1.pdf">preprint on arXiv</a>.</p>
+
+<h2 id="contribute">Contribute</h2>
+<p>You know datasets that are missing? See our  <a href="https://github.com/low-voltage-loadforecasting/low-voltage-loadforecasting.github.io">Github repository</a> of this page on how to contribute!</p>
+
+<h2 id="use">Use</h2>
+
+<table id="dataset-table">
+    <thead>
+        <tr class="header">
+            <th>Name</th>
+            <th>Bibtexkey</th>
+			<th>Type</th>
+            <th>No. Customers</th>
+            <th>Resolution</th>
+			<th>Duration</th>
+            <th>Intervention</th>
+            <th>Sub-metering</th>
+			<th>Weather avail.</th>
+			<th>Location</th>
+            <th>Other data provided:</th>
+            <th>Access/Licence</th>
+        </tr>
+    </thead>
+    <tbody>
+    
+        <tr>
+          <td>  <a href="https://www.ea.tuwien.ac.at/projects/adres_concept/EN/">ADRES</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#einfalt2011kfa">(Einfalt et al., 2011)</a>
+				
+			
+		  </td>
+		  <td>Residential</td>
+          <td>30</td>
+          <td>1 s</td>
+		  <td>2 weeks</td>
+          <td>None</td>
+          <td>No</td>
+		  <td>No</td>
+          <td>Austria (Upper Austria)</td>
+          <td>Voltage</td>
+		  <td>Free for Research (E-Mail)</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://sourceforge.net/projects/greend/">GREEND Electrical Energy Dataset (GREEND)</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#monacchi2014gae">(Monacchi et al., 2014)</a>
+				
+			
+		  </td>
+		  <td>Residential</td>
+          <td>8</td>
+          <td>1 s</td>
+		  <td>3-6 months</td>
+          <td>None</td>
+          <td>Yes</td>
+		  <td>No</td>
+          <td>Austria, Italy</td>
+          <td>Occupancy, Building type</td>
+		  <td>Free (Access Form)</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://archive.ics.uci.edu/ml/datasets/Appliances+energy+prediction">UCI Appliances</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#candanedo2017ddp">(Candanedo et al., 2017)</a>
+				
+			
+		  </td>
+		  <td>Residential</td>
+          <td>1</td>
+          <td>10 min</td>
+		  <td>4.5 months</td>
+          <td>None</td>
+          <td>No</td>
+		  <td>Yes</td>
+          <td>Belgium (Mons)</td>
+          <td>Lights, Building information</td>
+		  <td>Free (No Licence)</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://ieee-dataport.org/open-access/industrial-machines-dataset-electrical-load-disaggregation">Industrial Machines</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#Bandeira2018imd">(de Mello Martins; Vagner Barbosa Nascimento; Antônio Renato de Freitas; Pedro Bittencourt e Silva; Raphael Guimarães Duarte Pinto, 2018)</a>
+				
+			
+		  </td>
+		  <td>Industrial</td>
+          <td>1</td>
+          <td>1 s</td>
+		  <td>1 month</td>
+          <td>None</td>
+          <td>Yes</td>
+		  <td>No</td>
+          <td>Brasil (Minas Gerais)</td>
+          <td></td>
+		  <td>CC BY 4.0</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZJW4LC">Rainforest Automation Energy</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#Makonin2018rtr">(Makonin et al., 2018)</a>
+				
+			
+		  </td>
+		  <td>Residential</td>
+          <td>2</td>
+          <td>1 s</td>
+		  <td>2 months</td>
+          <td>None</td>
+          <td>Yes</td>
+		  <td>Yes</td>
+          <td>Canada</td>
+          <td>Environmental, Heat Pump,</td>
+		  <td>CC BY 4.0</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FIE0S4">AMPds2</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#Makonin2016ata">(Makonin, 2016)</a>
+				
+					<a class="citation" href="#Makonin2016ewa">(Makonin et al., 2016)</a>
+				
+			
+		  </td>
+		  <td>Residential</td>
+          <td>1</td>
+          <td>1 min</td>
+		  <td>2 years</td>
+          <td>None</td>
+          <td>Yes</td>
+		  <td>Yes</td>
+          <td>Canada (Alberta)</td>
+          <td>Gas, Water, Building Type and Plan</td>
+		  <td>CC BY 4.0</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://carleton.ca/sbes/publications/electric-demand-profiles-downloadable/">Sustainable Building Energy Systems 2017</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#Johnson2017edf">(Johnson &amp; Beausoleil-Morrison, 2017)</a>
+				
+			
+		  </td>
+		  <td>Residential</td>
+          <td>23</td>
+          <td>1 min</td>
+		  <td>1 year</td>
+          <td>None</td>
+          <td>Yes</td>
+		  <td>No</td>
+          <td>Canada (Ottawa)</td>
+          <td>Sociodemographic (Occupants, Age, Size)</td>
+		  <td>Free (Attribution, E-Mail)</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://carleton.ca/sbes/publications/electric-demand-profiles-downloadable/">Sustainable Building Energy Systems 2013</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#Saldanha2012mee">(Saldanha &amp; Beausoleil-Morrison, 2012)</a>
+				
+			
+		  </td>
+		  <td>Residential</td>
+          <td>12</td>
+          <td>1 min</td>
+		  <td>1 year</td>
+          <td>None</td>
+          <td>Yes</td>
+		  <td>No</td>
+          <td>Canada (Ottawa)</td>
+          <td>Sociodemographic (Occupants, Age, Size)</td>
+		  <td>Free (Attribution, E-Mail)</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://data.lab.fiware.org/organization/9569f9bd-42bd-414f-b8d9-112553ea9dfb?tags=FINESCE">FINESCE Horsens</a> </td>  
+          <td>
+			
+				
+			
+		  </td>
+		  <td>Residential</td>
+          <td>20</td>
+          <td>1 h</td>
+		  <td>several days</td>
+          <td>None</td>
+          <td>Yes</td>
+		  <td>Yes</td>
+          <td>Denmark (Horsens)</td>
+          <td>EV, PV, Heat Pump, Heating, Smart Home,</td>
+		  <td>CC BY-SA</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption">UCI Individual household electric power cons.</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#Hebrail2012ihe">(Hebrail &amp; Berard, 2012)</a>
+				
+			
+		  </td>
+		  <td>Residential</td>
+          <td>1</td>
+          <td>1 min</td>
+		  <td>4 years</td>
+          <td>None</td>
+          <td>Yes</td>
+		  <td>No</td>
+          <td>France (Sceaux)</td>
+          <td>Reactive Power, Voltage</td>
+		  <td>CC BY 4.0</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://mediatum.ub.tum.de/1375836">BLOND-50</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#Kriechbaumer2017bbo">(Kriechbaumer &amp; Jacobsen, 2017)</a>
+				
+			
+		  </td>
+		  <td>Commercial</td>
+          <td>1</td>
+          <td>50 kHz</td>
+		  <td>213 days</td>
+          <td>None</td>
+          <td>Yes</td>
+		  <td>No</td>
+          <td>Germany</td>
+          <td></td>
+		  <td>CC BY 4.0</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://mediatum.ub.tum.de/1375836">BLOND-250</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#Kriechbaumer2017bbo">(Kriechbaumer &amp; Jacobsen, 2017)</a>
+				
+			
+		  </td>
+		  <td>Commercial</td>
+          <td>1</td>
+          <td>250 kHz</td>
+		  <td>50 days</td>
+          <td>None</td>
+          <td>Yes</td>
+		  <td>No</td>
+          <td>Germany</td>
+          <td></td>
+		  <td>CC BY 4.0</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://zenodo.org/record/3855575\#.YKQgGKgzaUk">Fresh Energy</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#Beyertt2020fzb">(Beyertt et al., 2020)</a>
+				
+			
+		  </td>
+		  <td>Residential</td>
+          <td>200</td>
+          <td>15 min</td>
+		  <td>1 year</td>
+          <td>Behaviorial</td>
+          <td>Yes</td>
+		  <td>No</td>
+          <td>Germany</td>
+          <td>Agegroup, Gender of main customer</td>
+		  <td>CC BY 4.0</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://data.lab.fiware.org/organization/9569f9bd-42bd-414f-b8d9-112553ea9dfb?tags=FINESCE">FINESCE Factory</a> </td>  
+          <td>
+			
+				
+			
+		  </td>
+		  <td>Industrial</td>
+          <td>1</td>
+          <td>1 min</td>
+		  <td>2 days</td>
+          <td>None</td>
+          <td>Yes</td>
+		  <td>No</td>
+          <td>Germany (Aachen)</td>
+          <td>Machines</td>
+		  <td>CC BY-SA</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://pvspeicher.htw-berlin.de/wp-content/uploads/MFH-Lastprofil_2014_17274_kWh.csv">HTW Lichte Weiten</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#htw2019ldb">(Forschungsgruppe Solarspeichersysteme der HTW Berlin, 2019)</a>
+				
+			
+		  </td>
+		  <td>Residential</td>
+          <td>1</td>
+          <td>15 min</td>
+		  <td>1 year</td>
+          <td>None</td>
+          <td>No</td>
+		  <td>No</td>
+          <td>Germany (Berlin)</td>
+          <td></td>
+		  <td>Free (No Licence)</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://pvspeicher.htw-berlin.de/veroeffentlichungen/daten/lastprofile/">HTW Synthetic</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#Tjaden2015rel">(Tjaden et al., 2015)</a>
+				
+			
+		  </td>
+		  <td>Residential</td>
+          <td>74</td>
+          <td>1 s</td>
+		  <td>1 year</td>
+          <td>None</td>
+          <td>No</td>
+		  <td>No</td>
+          <td>Germany (Representative)</td>
+          <td>Synthetic dataset merged</td>
+		  <td>CC BY-NC</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://data.open-power-system-data.org/household_data/">CoSSMic</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#Open2020dph">(Open Power System Data., 2020)</a>
+				
+			
+		  </td>
+		  <td>Residential, Commercial</td>
+          <td>11</td>
+          <td>1 min, 15 min, 1 h</td>
+		  <td>1-3 years</td>
+          <td>None</td>
+          <td>Yes</td>
+		  <td>No</td>
+          <td>Germany (South)</td>
+          <td>PV, EV, Type (Residential/SME)</td>
+		  <td>CC BY 4.0</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://im.iism.kit.edu/sciber.php">SciBER</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#Staudt2018san">(Staudt et al., 2018)</a>
+				
+			
+		  </td>
+		  <td>Other</td>
+          <td>107</td>
+          <td>15 min</td>
+		  <td>3 years</td>
+          <td>None</td>
+          <td>No</td>
+		  <td>No</td>
+          <td>Germany (South)</td>
+          <td>Type (Office, Gym, ...)</td>
+		  <td>CC BY 4.0</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://iawe.github.io/">iAWE</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#batra2013idi">(Batra et al., 2013)</a>
+				
+			
+		  </td>
+		  <td>Residential</td>
+          <td>1</td>
+          <td>1 s</td>
+		  <td>2 months</td>
+          <td>None</td>
+          <td>Yes</td>
+		  <td>No</td>
+          <td>India (New Delhi)</td>
+          <td>Water</td>
+		  <td>Free (No Licence)</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://combed.github.io/">COMBED</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#Batra2014aco">(Batra et al., 2014)</a>
+				
+			
+		  </td>
+		  <td>Commercial</td>
+          <td>1</td>
+          <td>30 s</td>
+		  <td>1 month</td>
+          <td>None</td>
+          <td>Yes</td>
+		  <td>No</td>
+          <td>India (New Delhi)</td>
+          <td></td>
+		  <td>Free (No Licence)</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="http://www.ucd.ie/issda/data/commissionforenergyregulationcer/">Irish CER Smart Metering Project data</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#Commission2012csm">(Commission for Energy Regulation (CER), 2012)</a>
+				
+			
+		  </td>
+		  <td>Residential, Commercial</td>
+          <td>3835</td>
+          <td>30 min</td>
+		  <td>1.5 years</td>
+          <td>Tariff</td>
+          <td>No</td>
+		  <td>No</td>
+          <td>Ireland</td>
+          <td>Type (Residential/SME/Other)</td>
+		  <td>Free (Signed Access Form)</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://github.com/Nikasa1889/ShortTermLoadForecasting">Hvaler Substation Level data</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#DangHa2017lst">(Dang-Ha et al., 2017)</a>
+				
+			
+		  </td>
+		  <td>Substation</td>
+          <td>20</td>
+          <td>1 h</td>
+		  <td>2 years</td>
+          <td>None</td>
+          <td>No</td>
+		  <td>No</td>
+          <td>Norway (Hvaler)</td>
+          <td></td>
+		  <td>Free (No Licence)</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="http://web.lums.edu.pk/~eig/CXyzsMgyXGpW1sBo">Energy Informatics Group Pakistan</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#Pereira2014sap">(Pereira et al., 2014)</a>
+				
+			
+		  </td>
+		  <td>Residential</td>
+          <td>42</td>
+          <td>1 min</td>
+		  <td>1 year</td>
+          <td>None</td>
+          <td>Yes</td>
+		  <td>No</td>
+          <td>Pakistan</td>
+          <td>Sociodemographic (building properties, no of people, devices)</td>
+		  <td>Free (No Licence)</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://archive.ics.uci.edu/ml/datasets/ElectricityLoadDiagrams20112014">UCI Electricity Load Diagrams</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#Godahewa2021ehd">(Godahewa et al., 2020)</a>
+				
+			
+		  </td>
+		  <td>Residential, Commercial, Industrial</td>
+          <td>370</td>
+          <td>15 min</td>
+		  <td>2 years</td>
+          <td>None</td>
+          <td>No</td>
+		  <td>No</td>
+          <td>Portugal</td>
+          <td></td>
+		  <td>Free (No Licence)</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="http://www.vs.inf.ethz.ch/res/show.html?what=eco-data">Electricity Consumption and Occupancy (ECO)</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#Christian2014ted">(Beckel et al., 2014)</a>
+				
+					<a class="citation" href="#Wilhelm2015hom">(Kleiminger et al., 2015)</a>
+				
+			
+		  </td>
+		  <td>Residential</td>
+          <td>6</td>
+          <td>1 s</td>
+		  <td>8 months</td>
+          <td>None</td>
+          <td>Yes</td>
+		  <td>No</td>
+          <td>Switzerland</td>
+          <td>Occupancy</td>
+		  <td>CC BY 4.0</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://www.gov.uk/government/publications/household-electricity-survey--2">Home Electricity Survey (HES)</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#Zimmermann2012hes">(Zimmermann et al., 2012)</a>
+				
+			
+		  </td>
+		  <td>Residential</td>
+          <td>250</td>
+          <td>2 min</td>
+		  <td>1 month (255) to 1 year (26)</td>
+          <td>None</td>
+          <td>Yes</td>
+		  <td>No</td>
+          <td>UK</td>
+          <td>Consumer Archetype</td>
+		  <td>Request</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://beta.ukdataservice.ac.uk/datacatalogue/studies/study?id=8634">METER</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#Grunewald2019muh">(Grunewald &amp; Diakonova, 2019)</a>
+				
+			
+		  </td>
+		  <td>Residential</td>
+          <td>29</td>
+          <td>1 min</td>
+		  <td>28 hours</td>
+          <td>None</td>
+          <td>No</td>
+		  <td>No</td>
+          <td>UK</td>
+          <td>Activity data, Sociodemographic</td>
+		  <td>Free for Research (Access Form)</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://datashare.ed.ac.uk/handle/10283/3647">IDEAL Household Energy Dataset</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#goddard2020ihe">(Goddard et al., 2020)</a>
+				
+			
+		  </td>
+		  <td>Residential</td>
+          <td>255</td>
+          <td>1 s</td>
+		  <td>3 years</td>
+          <td>None</td>
+          <td>Yes</td>
+		  <td>No</td>
+          <td>UK</td>
+          <td>Smart Home, Sociodemographic, energy awareness survey, room temperature and humidity, building characteristics</td>
+		  <td>CC BY 4.0</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="http://www.networkrevolution.co.uk/resources/project-data/">Customer-Led Network Revolution project data</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#sidebotham2015cln">(Sidebotham &amp; Powergrid, 2015)</a>
+				
+			
+		  </td>
+		  <td>Residential, Commercial</td>
+          <td>12000</td>
+          <td>30 min</td>
+		  <td>&gt; 1 year</td>
+          <td>Time of Use</td>
+          <td>No</td>
+		  <td>No</td>
+          <td>UK</td>
+          <td>EV, PV, Heatpump, Tariff,</td>
+		  <td>CC BY-SA</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://jack-kelly.com/data/">UK Domestic Appliance-Level Electricity (UK-DALE)</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#Jack2015tud">(Kelly &amp; Knottenbelt, 2015)</a>
+				
+			
+		  </td>
+		  <td>Residential</td>
+          <td>5</td>
+          <td>16 kHz, 1 s</td>
+		  <td>months, one house &gt; 4 years</td>
+          <td>None</td>
+          <td>Yes</td>
+		  <td>No</td>
+          <td>UK (London area)</td>
+          <td></td>
+		  <td>CC BY 4.0</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://data.london.gov.uk/dataset/smartmeter-energy-use-data-in-london-households">UK Low Carbon London</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#UK2014ulc">(UK Power Networks, 2014)</a>
+				
+					<a class="citation" href="#Godahewa2021lsm">(Godahewa et al., 2020)</a>
+				
+			
+		  </td>
+		  <td>Residential</td>
+          <td>5567</td>
+          <td>30 min</td>
+		  <td>2 years</td>
+          <td>Time of Use</td>
+          <td>No</td>
+		  <td>No</td>
+          <td>UK (London)</td>
+          <td>CACI Acorn group</td>
+		  <td>Free (No Licence)</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://www.refitsmarthomes.org/datasets/">REFIT</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#Murray2016rel">(Murray &amp; Stankovic, 2016)</a>
+				
+					<a class="citation" href="#Murray2017ael">(Murray et al., 2017)</a>
+				
+			
+		  </td>
+		  <td>Residential</td>
+          <td>20</td>
+          <td>8 s</td>
+		  <td>2 years</td>
+          <td>None</td>
+          <td>Yes</td>
+		  <td>Yes</td>
+          <td>UK (Loughborough)</td>
+          <td>PV, Gas, Water, Sociodemographic (Occupancy, Dwelling Age, Dwelling Type, No. Bedrooms)</td>
+		  <td>CC BY 4.0</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://www.spenergynetworks.co.uk/pages/flexible_network_data_share.aspx">Flexible Networks for a Low Carbon Future</a> </td>  
+          <td>
+			
+				
+			
+		  </td>
+		  <td>Substation</td>
+          <td>Several Secondary</td>
+          <td>30 min</td>
+		  <td>1 year</td>
+          <td>None</td>
+          <td>No</td>
+		  <td>No</td>
+          <td>UK (St Andrews, Whitchurch, Ruabon)</td>
+          <td></td>
+		  <td>Free (Access Form)</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://ukerc.rl.ac.uk/DC/cgi-bin/edc_search.pl?WantComp=146">NTVV Substation</a> </td>  
+          <td>
+			
+				
+			
+		  </td>
+		  <td>Substation</td>
+          <td>316</td>
+          <td>5 s</td>
+		  <td>&gt; 4 years</td>
+          <td>None</td>
+          <td>No</td>
+		  <td>No</td>
+          <td>UK (Thames Valley)</td>
+          <td></td>
+		  <td>Open Access (Any purpose)</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://ukerc.rl.ac.uk/DC/cgi-bin/edc_search.pl?WantComp=147">NTVV Smart Meter</a> </td>  
+          <td>
+			
+				
+			
+		  </td>
+		  <td>Commercial</td>
+          <td>316</td>
+          <td>30 min</td>
+		  <td>&gt; 4 years</td>
+          <td>None</td>
+          <td>No</td>
+		  <td>No</td>
+          <td>UK (Thames Valley)</td>
+          <td></td>
+		  <td>Open Access (Any purpose)</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://site.ieee.org/pes-iss/data-sets/">IEEE PES Open Data Sets</a> </td>  
+          <td>
+			
+				
+			
+		  </td>
+		  <td>Residential, Commercial</td>
+          <td>15</td>
+          <td>1 min, 5 min, 15 min</td>
+		  <td>2 weeks</td>
+          <td>None</td>
+          <td>No</td>
+		  <td>No</td>
+          <td>USA</td>
+          <td>Connection limit</td>
+		  <td>Free (No Licence)</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="http://redd.csail.mit.edu/">Reference Energy Disaggregation Data Set (REDD)</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#Kolter2011rap">(Kolter &amp; Johnson, 2011)</a>
+				
+			
+		  </td>
+		  <td>Residential</td>
+          <td>10</td>
+          <td>1 kHz</td>
+		  <td>3-19 days</td>
+          <td>None</td>
+          <td>Yes</td>
+		  <td>No</td>
+          <td>USA (Boston)</td>
+          <td>Voltage</td>
+		  <td>Free (Attribution, E-Mail)</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="http://wzy.ece.iastate.edu/Testsystem.html">Iowa Distribution Test Systems</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#Bu2019atd">(Bu et al., 2019)</a>
+				
+			
+		  </td>
+		  <td>Substation</td>
+          <td>240 nodes</td>
+          <td>1 h</td>
+		  <td>1 year</td>
+          <td>None</td>
+          <td>Yes</td>
+		  <td>No</td>
+          <td>USA (Iowa)</td>
+          <td>Grid data</td>
+		  <td>Free (Attribution)</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://www.pecanstreet.org/dataport/">Pecanstreet Dataport (Academic)</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#Pecan2018d">(Pecan Street Inc., 2018)</a>
+				
+			
+		  </td>
+		  <td>Residential</td>
+          <td>75</td>
+          <td>1  min, 15 min, 1 h</td>
+		  <td>2-3 years</td>
+          <td>None</td>
+          <td>Yes</td>
+		  <td>Yes</td>
+          <td>USA (Austin, New York, California)</td>
+          <td>PV, EV, Water, Gas, Sociodemographic</td>
+		  <td>Free for Research (Access Form)</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="https://neea.org/resources/rbsa-ii-combined-database">Residential Building Stock Assessment</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#Larson2014jua">(Larson et al., 2014)</a>
+				
+			
+		  </td>
+		  <td>Residential</td>
+          <td>101</td>
+          <td>15 min</td>
+		  <td>27 months</td>
+          <td>None</td>
+          <td>Yes</td>
+		  <td>No</td>
+          <td>USA (North West Region)</td>
+          <td>Building Type (Single Family, Manufactured, Multifamily)</td>
+		  <td>Free (Access Form)</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="http://lass.cs.umass.edu/projects/smart/">SMART* Home 2017</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#Barker2012sao">(Barker et al., 2012)</a>
+				
+			
+		  </td>
+		  <td>Residential</td>
+          <td>7</td>
+          <td>1 s</td>
+		  <td>&gt; 2 years</td>
+          <td>None</td>
+          <td>Yes</td>
+		  <td>Yes</td>
+          <td>USA (Western Massachussets)</td>
+          <td></td>
+		  <td>Free (No Licence)</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="http://lass.cs.umass.edu/projects/smart/">SMART* Apartment</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#Barker2012sao">(Barker et al., 2012)</a>
+				
+			
+		  </td>
+		  <td>Residential</td>
+          <td>114</td>
+          <td>1 min</td>
+		  <td>2 years</td>
+          <td>None</td>
+          <td>No</td>
+		  <td>Yes</td>
+          <td>USA (Western Massachussets)</td>
+          <td></td>
+		  <td>Free (No Licence)</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="http://lass.cs.umass.edu/projects/smart/">SMART* Occupancy</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#Barker2012sao">(Barker et al., 2012)</a>
+				
+			
+		  </td>
+		  <td>Residential</td>
+          <td>2</td>
+          <td>1 min</td>
+		  <td>3 weeks</td>
+          <td>None</td>
+          <td>No</td>
+		  <td>No</td>
+          <td>USA (Western Massachussets)</td>
+          <td>Occupancy</td>
+		  <td>Free (No Licence)</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="http://lass.cs.umass.edu/projects/smart/">SMART* Microgrid</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#Barker2012sao">(Barker et al., 2012)</a>
+				
+			
+		  </td>
+		  <td>Residential</td>
+          <td>443</td>
+          <td>1 min</td>
+		  <td>1 day</td>
+          <td>None</td>
+          <td>No</td>
+		  <td>No</td>
+          <td>USA (Western Massachussets)</td>
+          <td></td>
+		  <td>Free (No Licence)</td>
+        </tr>
+    
+        <tr>
+          <td>  <a href="http://lass.cs.umass.edu/projects/smart/">SMART* Home 2013</a> </td>  
+          <td>
+			
+				
+					<a class="citation" href="#Barker2012sao">(Barker et al., 2012)</a>
+				
+			
+		  </td>
+		  <td>Residential</td>
+          <td>3</td>
+          <td>1 s</td>
+		  <td>3 months</td>
+          <td>None</td>
+          <td>Yes</td>
+		  <td>No</td>
+          <td>USA (Western Massachussets)</td>
+          <td>Solar, Wind, Environmental, Smart Home, Voltage,</td>
+		  <td>Free (No Licence)</td>
+        </tr>
+    
+    </tbody>
+</table>
+
+<script>
+  $(document).ready( function () {
+    $('#dataset-table').DataTable({
+            "autoWidth": true,
+            "pageLength": 20
+        });
+} );
+</script>
+
+<h2 id="cite">Cite</h2>
+
+<p>If you find it useful and use it in your work, feel free to cite our preprint:</p>
+
+<div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@misc<span class="p">{</span>haben2021review,
+          title=<span class="p">{</span>Review of Low-Voltage Load Forecasting: Methods, Applications, and Recommendations<span class="p">}</span>, 
+          author=<span class="p">{</span>Stephen Haben and Siddharth Arora and Georgios Giasemidis and Marcus Voss and Danica Vukadinovic Greetham<span class="p">}</span>,
+          year=<span class="p">{</span>2021<span class="p">}</span>,
+          eprint=<span class="p">{</span>2106.00006<span class="p">}</span>,
+          archivePrefix=<span class="p">{</span>arXiv<span class="p">}</span>,
+          primaryClass=<span class="p">{</span>stat.OT<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="references">References</h2>
+
+<ol class="bibliography"><li><span id="einfalt2011kfa">Einfalt, A., Schuster, A., Leitinger, C., Tiefgraber, D., Litzlbauer, M., Ghaemi, S., Wertz, D., &amp; Frohner, A. (2011). Konzeptentwicklung für ADRES-Autonome Dezentrale Regenerative Energiesysteme. <i>Energie Der Zukunft. 1st Ed. Vienna</i>.</span></li>
+<li><span id="monacchi2014gae">Monacchi, A., Egarter, D., Elmenreich, W., D’Alessandro, S., &amp; Tonello, A. M. (2014). GREEND: An energy consumption dataset of households in Italy and Austria. <i>2014 IEEE International Conference on Smart Grid Communications (SmartGridComm)</i>, 511–516.</span></li>
+<li><span id="candanedo2017ddp">Candanedo, L. M., Feldheim, V., &amp; Deramaix, D. (2017). Data driven prediction models of energy use of appliances in a low-energy house. <i>Energy and Buildings</i>, <i>140</i>, 81–97.</span></li>
+<li><span id="Bandeira2018imd">de Mello Martins; Vagner Barbosa Nascimento; Antônio Renato de Freitas; Pedro Bittencourt e Silva; Raphael Guimarães Duarte Pinto, P. B. (2018). <i>Industrial Machines Dataset for Electrical Load Disaggregation</i>. IEEE Dataport. https://doi.org/10.21227/cg5v-dk02</span></li>
+<li><span id="Makonin2018rtr">Makonin, S., Wang, Z. J., &amp; Tumpach, C. (2018). RAE: The rainforest automation energy dataset for smart grid meter data analysis. <i>Data</i>, <i>3</i>(1), 8.</span></li>
+<li><span id="Makonin2016ata">Makonin, S. (2016). Ampds2: the almanac of minutely power dataset (version 2). In <i>Harvard Dataverse</i> (p. V2).</span></li>
+<li><span id="Makonin2016ewa">Makonin, S., Ellert, B., Bajić, I. V., &amp; Popowich, F. (2016). Electricity, water, and natural gas consumption of a residential house in Canada from 2012 to 2014. <i>Scientific Data</i>, <i>3</i>.</span></li>
+<li><span id="Johnson2017edf">Johnson, G., &amp; Beausoleil-Morrison, I. (2017). Electrical-end-use data from 23 houses sampled each minute for simulating micro-generation systems. <i>Applied Thermal Engineering</i>, <i>114</i>, 1449–1456.</span></li>
+<li><span id="Saldanha2012mee">Saldanha, N., &amp; Beausoleil-Morrison, I. (2012). Measured end-use electric load profiles for 12 Canadian houses at high temporal resolution. <i>Energy and Buildings</i>, <i>49</i>, 519–530.</span></li>
+<li><span id="Hebrail2012ihe">Hebrail, G., &amp; Berard, A. (2012). Individual household electric power consumption data set. <i>É. d. France, Ed., Ed: UCI Machine Learning Repository</i>.</span></li>
+<li><span id="Kriechbaumer2017bbo">Kriechbaumer, T., &amp; Jacobsen, H.-A. (2017). <i>BLOND: Building-Level Office eNvironment Dataset</i> [Dataset]. Technical University of Munich. https://doi.org/10.14459/2017mp1375836</span></li>
+<li><span id="Beyertt2020fzb">Beyertt, A., Verwiebe, P., Seim, S., Milojkovic, F., &amp; Müller-Kirchenbauer, J. (2020). <i>Felduntersuchung zu Behavioral Energy Efficiency 
+Potentialen von privaten Haushalten</i>. https://doi.org/10.5281/zenodo.3855575</span></li>
+<li><span id="htw2019ldb">Forschungsgruppe Solarspeichersysteme der HTW Berlin. (2019). <i>Lastprofil des Berliner Mehrfamilienhauses Lichte Weiten mit 11 Wohneinheiten (Messzeitraum 2014)</i>. \urlhttps://pvspeicher.htw-berlin.de/veroeffentlichungen/daten/.</span></li>
+<li><span id="Tjaden2015rel">Tjaden, T., Bergner, J., Weniger, J., Quaschning, V., &amp; Solarspeichersysteme, F. (2015). Repräsentative elektrische Lastprofile für Wohngebäude in Deutschland auf 1-sekündiger Datenbasis. <i>Hochschule Für Technik Und Wirtschaft HTW Berlin</i>.</span></li>
+<li><span id="Open2020dph">Open Power System Data. (2020). <i>Data Package Household Data. Version 2020-04-15.</i></span></li>
+<li><span id="Staudt2018san">Staudt, P., Ludwig, N., Huber, J., Hagenmeyer, V., &amp; Weinhardt, C. (2018). SCiBER: A new public data set of municipal building consumption. <i>Proceedings of the Ninth International Conference on Future Energy Systems</i>, 618–621.</span></li>
+<li><span id="batra2013idi">Batra, N., Gulati, M., Singh, A., &amp; Srivastava, M. B. (2013). It’s Different: Insights into home energy consumption in India. <i>Proceedings of the 5th ACM Workshop on Embedded Systems For Energy-Efficient Buildings</i>, 1–8.</span></li>
+<li><span id="Batra2014aco">Batra, N., Parson, O., Berges, M., Singh, A., &amp; Rogers, A. (2014). A comparison of non-intrusive load monitoring methods for commercial and residential buildings. <i>ArXiv:1408.6595</i>.</span></li>
+<li><span id="Commission2012csm">Commission for Energy Regulation (CER). (2012). <i>CER Smart Metering Project - Electricity Customer Behaviour Trial 2009-2010 [dataset]. 1st Edition</i>.</span></li>
+<li><span id="DangHa2017lst">Dang-Ha, T.-H., Bianchi, F. M., &amp; Olsson, R. (2017). Local short term electricity load forecasting: Automatic approaches. <i>2017 International Joint Conference on Neural Networks (IJCNN)</i>, 4267–4274.</span></li>
+<li><span id="Pereira2014sap">Pereira, L., Quintal, F., Gonçalves, R., &amp; Nunes, N. J. (2014). SustData: A public dataset for ICT4S electric energy research. <i>ICT for Sustainability 2014 (ICT4S-14)</i>.</span></li>
+<li><span id="Godahewa2021ehd">Godahewa, R., Bergmeir, C., Webb, G., Hyndman, R., &amp; Montero-Manso, P. (2020). <i>Electricity Hourly Dataset</i> (Version 3) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.4656140</span></li>
+<li><span id="Christian2014ted">Beckel, C., Kleiminger, W., Cicchetti, R., Staake, T., &amp; Santini, S. (2014). The ECO Data Set and the Performance of Non-Intrusive Load Monitoring Algorithms. <i>Proceedings of the 1st ACM International Conference on Embedded Systems for Energy-Efficient Buildings (BuildSys 2014). Memphis, TN, USA</i>, 80–89.</span></li>
+<li><span id="Wilhelm2015hom">Kleiminger, W., Beckel, C., &amp; Santini, S. (2015, September). Household Occupancy Monitoring Using Electricity Meters. <i>Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp 2015)</i>.</span></li>
+<li><span id="Zimmermann2012hes">Zimmermann, J.-P., Evans, M., Griggs, J., King, N., Harding, L., Roberts, P., &amp; Evans, C. (2012). Household Electricity Survey: A study of domestic electrical product usage. In <i>Intertek Testing &amp; Certification Ltd</i>.</span></li>
+<li><span id="Grunewald2019muh">Grunewald, P., &amp; Diakonova, M. (2019). <i>METER: UK Household Electricity and Activity Survey, 2016-2019, UK Data Service</i>.</span></li>
+<li><span id="goddard2020ihe">Goddard, N., Kilgour, J., Pullinger, M., Arvind, D. K., Lovell, H., Moore, J., Shipworth, D., Sutton, C., Webb, J., Berliner, N., &amp; others. (2020). <i>IDEAL Household Energy Dataset</i>. University of Edinburgh. School of Informatics.</span></li>
+<li><span id="sidebotham2015cln">Sidebotham, L., &amp; Powergrid, N. (2015). Customer-led network revolution project closedown report. <i>Customer Led Network Revolution. Newcastle upon Tyne</i>.</span></li>
+<li><span id="Jack2015tud">Kelly, J., &amp; Knottenbelt, W. (2015). The UK-DALE dataset, domestic appliance-level electricity demand and whole-house demand from five UK homes. <i>Scientific Data</i>, <i>2</i>(150007). https://doi.org/10.1038/sdata.2015.7</span></li>
+<li><span id="UK2014ulc">UK Power Networks. (2014). <i>UK Low Carbon London project</i>. https://data.london.gov.uk/dataset/smartmeter-energy-use-data-in-london-households</span></li>
+<li><span id="Godahewa2021lsm">Godahewa, R., Bergmeir, C., Webb, G., Hyndman, R., &amp; Montero-Manso, P. (2020). <i>London Smart Meters Dataset (without Missing 
+                   Values)</i> (Version 3). Zenodo. https://doi.org/10.5281/zenodo.4656091</span></li>
+<li><span id="Murray2016rel">Murray, D., &amp; Stankovic, L. (2016). REFIT: Electrical Load Measurements (Cleaned). In <i>University of Strathclyde, PURE</i>.</span></li>
+<li><span id="Murray2017ael">Murray, D., Stankovic, L., &amp; Stankovic, V. (2017). An electrical load measurements dataset of United Kingdom households from a two-year longitudinal study. <i>Scientific Data</i>, <i>4</i>(1), 1–12.</span></li>
+<li><span id="Kolter2011rap">Kolter, J. Z., &amp; Johnson, M. J. (2011). REDD: A public data set for energy disaggregation research. <i>Workshop on Data Mining Applications in Sustainability (SIGKDD), San Diego, CA</i>, <i>25</i>(Citeseer), 59–62.</span></li>
+<li><span id="Bu2019atd">Bu, F., Yuan, Y., Wang, Z., Dehghanpour, K., &amp; Kimber, A. (2019). A time-series distribution test system based on real utility data. <i>ArXiv Preprint ArXiv:1906.04078</i>.</span></li>
+<li><span id="Pecan2018d">Pecan Street Inc. (2018). <i>Dataport</i>.</span></li>
+<li><span id="Larson2014jua">Larson, B., Gilman, L., Davis, R., &amp; Logsdon, M. (2014). <i>J. Uslan and B. Hannas and D. Baylon and P. Storm and V. Mugford and N. Kvaltine. Residential Building Stock Assessment: Metering Study</i>. Technical Report E14-283, Northwest Energy Efficiency Alliance.</span></li>
+<li><span id="Barker2012sao">Barker, S., Mishra, A., Irwin, D., Cecchet, E., Shenoy, P., Albrecht, J., &amp; others. (2012). Smart*: An open data set and tools for enabling research in sustainable homes. <i>SustKDD, August</i>, <i>111</i>(112), 108.</span></li></ol>
+
+
+      <footer class="site-footer">
+        
+          <span class="site-footer-owner"><a href="https://github.com/low-voltage-loadforecasting/low-voltage-loadforecasting.github.io">low-voltage-loadforecasting.github.io</a> is maintained by <a href="https://github.com/low-voltage-loadforecasting">low-voltage-loadforecasting</a>.</span>
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </main>
+  </body>
+</html>
