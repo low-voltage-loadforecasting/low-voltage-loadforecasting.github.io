@@ -619,3 +619,16 @@
   Location: Germany
   Other:
   Licence: No Licence
+- Name: MORED
+  Bibtexkey: Ahajjam2020mam
+  Url: https://moredataset.github.io/MORED/
+  Type: Residential, Commercial
+  Customers: 9
+  Resolution: 10 Hz
+  Duration: 30 days
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'No'
+  Location: Morocco
+  Other:
+  Licence: No Licence
