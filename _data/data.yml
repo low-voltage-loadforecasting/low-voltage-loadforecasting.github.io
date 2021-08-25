@@ -593,3 +593,16 @@
   Location: USA (Western Massachussets)
   Other: Solar, Wind, Environmental, Smart Home, Voltage,
   Licence: Free (No Licence)
+- Name: Hierarchical Demand Forecasting Benchmark
+  Bibtexkey: nespoli2020hdf
+  Url: https://doi.org/10.5281/zenodo.4549296
+  Type: Residential, Commercial, Substation
+  Customers: 24
+  Resolution: 10 min
+  Duration: 1 year
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'Yes'
+  Location: Switzerland (Rolle)
+  Other: Reactive Power, Voltage, THD
+  Licence: CC BY 4.0
