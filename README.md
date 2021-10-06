@@ -2,6 +2,8 @@
 
 This is the repository for the Github pages site produced with [Jekyll](https://jekyllrb.com/) to [our page](https://low-voltage-loadforecasting.github.io/) hosting an overview of load forecasting data sets as presented in our paper available as [preprint on arXiv](). 
 
+This is an overview of load forecasting data sets as presented in our paper available as preprint on arXiv and published in Applied Energy.
+
 ## How To Contribute a dataset
 
 ### Submit by opening an issue
