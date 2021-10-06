@@ -27,6 +27,7 @@ url: "https://low-voltage-loadforecasting.github.io/" # the base hostname & prot
 twitter_username: marcusvoss314
 github_username:  marcus-voss
 show_downloads: false
+repository: low-voltage-loadforecasting/low-voltage-loadforecasting.github.io
 
 # Build settings
 theme: jekyll-theme-cayman
