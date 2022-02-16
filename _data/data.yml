@@ -710,3 +710,94 @@
   Location: Korea
   Other: 
   Licence: No Licence
+- Name: Living Lab Catapult 
+  Bibtexkey: 
+  Url: https://usmart.io/org/esc/discovery?tags=Living%20Lab&order=_score&keywords=Living%20Lab&limit=20&offset=0
+  Type: Residential
+  Customers: 100
+  Resolution: 15 min
+  Duration: several months
+  Intervention: Heating plans
+  Submetering: 'Yes'
+  Weather: 'Yes'
+  Location: UK
+  Other: Heat pumps in some houses, gas usage, room temperature and humidity
+  Licence: https://usmart-static.s3-eu-west-1.amazonaws.com/Data+Sharing+Licence+08102019+v3.0.pdf
+- Name: PIEG-Strom Tool Manufacturer 
+  Bibtexkey:
+  Url: https://www.zenodo.org/record/4683455#.Yg1RSu7MKYA
+  Type: Industrial
+  Customers: 1
+  Resolution: 15 min
+  Duration: 1 year
+  Intervention: None
+  Submetering: 'No'
+  Weather: 'No'
+  Location: Germany
+  Other: 
+  Licence: CC BY 4.0
+- Name: PIEG-Strom Electroplating
+  Bibtexkey:
+  Url: https://www.zenodo.org/record/4683479#.Yg1RSu7MKYA
+  Type: Industrial
+  Customers: 1
+  Resolution: 15 min
+  Duration: 1.5 years
+  Intervention: None
+  Submetering: 'No'
+  Weather: 'No'
+  Location: Germany
+  Other: 
+  Licence: CC BY 4.0
+- Name: Western Power Distribution Peak
+  Bibtexkey:
+  Url: https://connecteddata.westernpower.co.uk/dataset/western-power-distribution-data-challenge-1-high-resolution-peak-estimation
+  Type: Substation
+  Customers: 3
+  Resolution: 1 min, 30 min
+  Duration: 2 years
+  Intervention: None
+  Submetering: 'No'
+  Weather: 'Yes'
+  Location: UK
+  Other: 
+  Licence: https://www.westernpower.co.uk/open-data-licence
+- Name: Western Power Distribution EV
+  Bibtexkey:
+  Url: https://connecteddata.westernpower.co.uk/dataset/western-power-distribution-data-challenge-2-estimating-ev-charger-demand
+  Type: Substation
+  Customers: 3
+  Resolution: 15 min
+  Duration: 1 year
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'Yes'
+  Location: UK
+  Other: EV Load
+  Licence: https://www.westernpower.co.uk/open-data-licence
+- Name: WPuQ (2.0)
+  Bibtexkey: schllemminger2022dataset
+  Url: https://zenodo.org/record/5642902#.Yg1VXe7MKYC
+  Type: Residential
+  Customers: 38
+  Resolution: 10 s, 1 h
+  Duration: 2 years
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'Yes'
+  Location: Germany (Lower Saxony)
+  Other: Heat pumps, PV, Heating, Power, voltage, current and power factor
+  Licence: CC BY 4.0
+- Name: SustDataED2
+  Bibtexkey: 
+  Url: https://doi.org/10.17605/OSF.IO/JCN2Q
+  Type: Residential
+  Customers: 1
+  Resolution: 0.5 Hz
+  Duration: 96 days
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'No'
+  Location: Portugal
+  Other: On-Off Transitions of appliances, current, voltage
+  Licence: CC BY 4.0
