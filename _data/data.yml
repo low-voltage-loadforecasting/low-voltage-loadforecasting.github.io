@@ -775,6 +775,19 @@
   Location: UK
   Other: EV Load
   Licence: https://www.westernpower.co.uk/open-data-licence
+- Name: Western Power Distribution Hierarchy
+  Bibtexkey:
+  Url: https://codalab.lisn.upsaclay.fr/competitions/2625
+  Type: Substation
+  Customers: 40
+  Resolution: 30 min
+  Duration: 2 years
+  Intervention: None
+  Submetering: 'Yes'
+  Weather: 'No'
+  Location: UK
+  Other: Network Hierarchy
+  Licence: https://www.westernpower.co.uk/open-data-licence
 - Name: WPuQ (2.0)
   Bibtexkey: schllemminger2022dataset
   Url: https://zenodo.org/record/5642902#.Yg1VXe7MKYC
