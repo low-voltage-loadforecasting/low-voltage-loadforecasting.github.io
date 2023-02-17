@@ -814,3 +814,16 @@
   Location: Portugal
   Other: On-Off Transitions of appliances, current, voltage
   Licence: CC BY 4.0
+  - Name: Microprediction
+  Bibtexkey: microprediction
+  Url: https://microprediction.github.io/microprediction/data
+  Type: Commercial
+  Customers: N/A
+  Resolution: 15 min predictions
+  Duration: Ongoing
+  Intervention: None
+  Submetering: 'No'
+  Weather: 'No'
+  Location: New York State
+  Other: Live open prediction data (loads, prices)
+  Licence: MIT - derived prediction data
