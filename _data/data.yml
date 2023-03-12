@@ -407,7 +407,7 @@
   Weather: 'No'
   Location: UK (London)
   Other: CACI Acorn group
-  Licence: No Licence
+  Licence: CC BY 4.0
 - Name: REFIT
   Bibtexkey: 
     - Murray2016rel
@@ -814,3 +814,77 @@
   Location: Portugal
   Other: On-Off Transitions of appliances, current, voltage
   Licence: CC BY 4.0
+- Name: Northern Powergrid Primaries
+  Url: https://doi.org/10.25405/data.ncl.22047758
+  Type: Substation
+  Customers: 171
+  Resolution: 30 min
+  Duration: 1 year
+  Intervention: None
+  Submetering: 'No'
+  Weather: 'No'
+  Location: UK (North East and Yorkshire and the Humber Region of England)
+  Other:
+  Licence: https://northernpowergrid.opendatasoft.com/p/opendatalicence/
+- Name: CKW Smart-Meter (Individual)
+  Url: https://open.data.axpo.com/%24web/index.html#dataset-a
+  Type: Residential, Commercial
+  Customers: '>100,000 (Aggregated)'
+  Resolution: 15 min
+  Duration: 2 years
+  Intervention: None
+  Submetering: 'No'
+  Weather: 'No'
+  Location: Switzerland
+  Other: 
+  Licence: https://www.ckw.ch/landingpages/open-data
+- Name: CKW Smart-Meter (Aggregated)
+  Url: https://open.data.axpo.com/%24web/index.html#dataset-a
+  Type: Residential, Commercial
+  Customers: '>100,000 (Aggregated)'
+  Resolution: 15 min
+  Duration: 2 years
+  Intervention: None
+  Submetering: 'No'
+  Weather: 'No'
+  Location: Switzerland
+  Other: 'Postcode level'
+  Licence: https://www.ckw.ch/landingpages/open-data
+- Name: Borealis
+  Url: https://doi.org/10.5683/SP2/R4SVBF
+  Type: Residential
+  Customers: 30
+  Resolution: 6 s
+  Duration: up to 1 year
+  Intervention: None
+  Submetering: 'Phases'
+  Weather: 'No'
+  Location: Canada (Waterloo)
+  Other: 'Room temperature'
+  Licence: CC0 1.0 Universal
+- Name: HIPE Data Set
+  Bibtexkey: bischof2018hipe
+  Url: https://www.energystatusdata.kit.edu/hipe.php
+  Type: Industrial
+  Customers: 10
+  Resolution: 5 s
+  Duration: 3 months
+  Intervention: None
+  Submetering: 'No'
+  Weather: 'No'
+  Location: Germany (Karlsruhe)
+  Other: Voltage, current, Reactive Power, THD
+  Licence: CC-BY 4.0
+- Name: Smart-Grid Smart-City Customer Trial
+  Bibtexkey: 
+  Url: https://data.gov.au/data/dataset/smart-grid-smart-city-customer-trial-data
+  Type: Residential, Commercial
+  Customers: 79,000
+  Resolution: 30 min
+  Duration: 4 years
+  Intervention: Tariff
+  Submetering: 'No'
+  Weather: 'No'
+  Location: Australia
+  Other: appliance use, climate
+  Licence: CC BY 3.0 AU
