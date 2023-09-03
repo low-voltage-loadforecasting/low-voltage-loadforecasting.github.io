@@ -623,15 +623,15 @@
   Bibtexkey: Ahajjam2020mam
   Url: https://moredataset.github.io/MORED/
   Type: Residential, Commercial
-  Customers: 9
-  Resolution: 10 Hz
-  Duration: 30 days
+  Customers: 12
+  Resolution: 5 or 10s
+  Duration: 30-90 days
   Intervention: None
   Submetering: 'Yes'
   Weather: 'No'
-  Location: Morocco
+  Location: Morocco (Tetuán, Rabat, & Sale)
   Other:
-  Licence: No Licence
+  Licence: No Licence (Atrribution)
 - Name: Ausgrid substation data
   Bibtexkey: 
   Url: https://www.ausgrid.com.au/Industry/Our-Research/Data-to-share/Distribution-zone-substation-data#.WYD6KenauUl
