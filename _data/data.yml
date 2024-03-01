@@ -888,3 +888,79 @@
   Location: Australia
   Other: appliance use, climate
   Licence: CC BY 3.0 AU
+- Name: SSEN Distribution LV Feeder Usage
+  Bibtexkey: 
+  Url: https://data.ssen.co.uk/@ssen-distribution/ssen_smart_meter_prod_lv_feeder
+  Type: Substation
+  Customers: 40,000
+  Resolution: 1 h
+  Duration: years (updated regularly)
+  Intervention: 'No'
+  Submetering: 'Yes'
+  Weather: 'No'
+  Location: Scottland, UK
+  Other: Hierarchical from primary substation to LV feeder
+  Licence: CC BY 4.0
+- Name: UK Power Networks
+  Bibtexkey: 
+  Url: https://ukpowernetworks.opendatasoft.com/pages/smart-meters/
+  Type: Substation
+  Customers: 40,000
+  Resolution: 30 min
+  Duration: months (updated regularly)
+  Intervention: 'No'
+  Submetering: 'Yes'
+  Weather: 'No'
+  Location: UK
+  Other: Hierarchical from primary substation to LV feeder
+  Licence: CC BY 4.0
+- Name: OPSCI - Open SCI
+  Url: https://www.elektro-ljubljana.si/projekti/ArtMID/1374/ArticleID/2156/OPSCI-Open-SCI
+  Type: Substation
+  Customers: One
+  Resolution: 15 min
+  Duration: 4 years
+  Intervention: None
+  Submetering: Yes
+  Weather: No
+  Location: Ljubljana, Slovenia
+  Other: Voltage
+  Licence:
+- Name: eMARC
+  Url: https://emarc.watchyourpower.org/
+  Type: Residential
+  Customers: 144
+  Resolution: 1 h
+  Duration: 3 years
+  Intervention: None
+  Submetering: No
+  Weather: No
+  Location: India
+  Other: Voltage
+  Licence: Non-commercial, attribution
+- Name: ETDataset
+  Bibtexkey: haoyietal-informer-2021
+  Url: https://github.com/zhouhaoyi/ETDataset
+  Type: Substation
+  Customers: 1
+  Resolution: 1 h
+  Duration: 2 years
+  Intervention: None
+  Submetering: No
+  Weather: No
+  Location: China
+  Other: Oil Temperature
+  Licence: CC BY-ND 4.0
+- Name: ETDataset
+  Bibtexkey: haoyietal-informer-2021
+  Url: https://github.com/zhouhaoyi/ETDataset
+  Type: Substation
+  Customers: 1
+  Resolution: 1 h
+  Duration: 2 years
+  Intervention: None
+  Submetering: No
+  Weather: No
+  Location: China
+  Other: Oil Temperature
+  Licence: CC BY-ND 4.0
