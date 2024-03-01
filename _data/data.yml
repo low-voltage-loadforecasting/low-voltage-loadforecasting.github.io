@@ -951,16 +951,3 @@
   Location: China
   Other: Oil Temperature
   Licence: CC BY-ND 4.0
-- Name: ETDataset
-  Bibtexkey: haoyietal-informer-2021
-  Url: https://github.com/zhouhaoyi/ETDataset
-  Type: Substation
-  Customers: 1
-  Resolution: 1 h
-  Duration: 2 years
-  Intervention: None
-  Submetering: No
-  Weather: No
-  Location: China
-  Other: Oil Temperature
-  Licence: CC BY-ND 4.0
