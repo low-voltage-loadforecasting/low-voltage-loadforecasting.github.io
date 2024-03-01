@@ -298,6 +298,7 @@ PLATFORMS
   universal-darwin-20
   universal-darwin-21
   universal-darwin-22
+  universal-darwin-23
   x64-mingw32
 
 DEPENDENCIES
