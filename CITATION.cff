@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use find the provided data useful, please cite the repository and if appropriate the associated paper as below."
+authors:
+- family-names: "Voss"
+  given-names: "Marcus"
+  orcid: "https://orcid.org/0000-0002-7811-3561"
+- family-names: "Haben"
+  given-names: "Stephen"
+  orcid: "https://orcid.org/0000-0001-6763-8314"
+title: "Review of Low-Voltage Load Forecasting"
+date-released: 2021-05-30
+url: "https://low-voltage-loadforecasting.github.io/"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Haben"
+    given-names: "Stephen"
+    orcid: "https://orcid.org/0000-0001-6763-8314"
+  - family-names: "Arora"
+    given-names: "Siddharth"
+    orcid: "https://orcid.org/0000-0001-6499-6941"
+  - family-names: "Giasemidis"
+    given-names: "Georgios"
+  - family-names: "Voss"
+    given-names: "Marcus"
+    orcid: "https://orcid.org/0000-0002-7811-3561"
+  - family-names: "Vukadinovic Greetham"
+    given-names: "Danica"
+    orcid: "https://orcid.org/0000-0003-3822-7908"
+  doi: "https://doi.org/10.1016/j.apenergy.2021.117798"
+  journal: "Applied Energy"
+  year: 2021
+  start: 117798
+  title: "Review of Low-Voltage Load Forecasting: Methods, Applications, and Recommendations"
+  volume: 304
+
+
+
+
+ 
